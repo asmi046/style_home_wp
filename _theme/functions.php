@@ -21,8 +21,6 @@ function my_assets()
 	wp_enqueue_style("fonts-css", get_template_directory_uri() . "/css/fonts.css", array(), $style_version, 'all'); 
 	wp_enqueue_style("main-css", get_template_directory_uri() . "/css/main.css", array(), $style_version, 'all'); 
 	
-	wp_enqueue_style("main-css", get_template_directory_uri() . "/css/main.css", array(), $style_version, 'all'); 
-	
 	
 	wp_enqueue_style("section-header-css",  get_template_directory_uri() . "/css/section-header.css", array(), $style_version, 'all');
 	wp_enqueue_style("section-menu-css",  get_template_directory_uri() . "/css/section-menu.css", array(), $style_version, 'all');

@@ -1,11 +1,21 @@
+:root {
+    --color-main-green: #5CA192;
+    --color-main-gray: #F6F6F6;
+    --border-radius-mini: 15px
+}
+
 body {
-    font-family: "Arial";
+    font-family: 'TT Norms';
     line-height: 1;
 }
 
 section {
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 75px;
+}
+
+section > h2{
+    margin-bottom: 40px;
 }
 
 p {
