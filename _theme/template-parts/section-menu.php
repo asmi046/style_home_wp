@@ -1,1 +1,40 @@
-<h2>section-menu</h2>
+<?php 
+    // wp_nav_menu( [
+    // 'theme_location' => 'menu-1',
+    // 'menu_class' => 'menu_head',
+	// 'container' => false ]); 
+?>
+
+<ul class="menu_head" id="menu_head">
+    <li>
+        <a href="#" class="sub_puncts">Дизайн</a>
+        <div data-name="Дизайн" class="menu_sub_puncts" id="menu_sub_puncts">
+            <div class="_container">
+                <div class="subaction_blk">
+                    <span>О компании</span>
+                    <p>«Стильный-дом»</p>
+                    <a href="#" class="btn">Подробнее</a>
+                </div>
+
+                <div class="subpuncts_blk">
+                    <ul>
+                        <li><a href="">Новости</a></li>
+                        <li><a href="">Блог</a></li>
+                        <li><a href="">Публикации в СМИ</a></li>
+                        <li><a href="">Мы на телевидении</a></li>
+                        <li><a href="">Энциклопедия</a></li>
+                    </ul>
+                </div>
+
+                <div class="subcontacts_blk">
+                    <a href="#">StilniyDom@sd.ru</a>
+                    <p>г. Москва, ул. Бауманская, д. 15</p>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li><a href="#" class="sub_puncts">Ремонт</a></li>
+    <li><a href="#">Умный дом</a></li>
+    <li><a href="#">Галерея</a></li>
+    <li><a href="#">Контакты</a></li>
+</ul>

@@ -59,9 +59,9 @@ function my_assets()
 
 add_action( 'after_setup_theme', function(){
 	register_nav_menus( [
-		'menu-1' => 'Меню Товары',
-		'menu-2' => 'Меню Сотрудничество',
-		'menu-3' => 'Меню Доставка',
+		'menu-1' => 'Меню в шапке',
+		'menu-2' => 'Меню в подвале',
+		'menu-3' => 'Меню услуг в подвале',
 	] );
 } ); 
 

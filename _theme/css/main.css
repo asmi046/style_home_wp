@@ -1,12 +1,14 @@
 :root {
     --color-main-green: #5CA192;
     --color-main-gray: #F6F6F6;
+    --border-radius-s-mini: 10px;
     --border-radius-mini: 15px
 }
 
 body {
     font-family: 'TT Norms';
     line-height: 1;
+    font-size: 14px;
 }
 
 section {
@@ -25,3 +27,40 @@ p {
 a {
     color: lightseagreen;
 }
+
+._container {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.btn {
+    background-color: var(--color-main-green);
+    color:white!important;
+    border-radius: var(--border-radius-s-mini);
+    text-align: center;
+    padding: 10px 40px;
+    display: inline-block;
+    border: none;
+}
+
+/*-----Скролбар-----*/
+
+::-webkit-scrollbar {
+    overflow-y: scroll;
+    width: 7px;
+    background-color: #f9f9fd;
+  }
+
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+}
+
+.all_city_list::-webkit-scrollbar-thumb,
+.page__sidebar-navigation-menu::-webkit-scrollbar-thumb,
+.page__sidebar-navigation-body-menu-options::-webkit-scrollbar-thumb {
+  width: 5px;
+  border-radius: 2.5px;
+  background: #dde5ec;
+}
+
+/*-----Скролбар end-----*/

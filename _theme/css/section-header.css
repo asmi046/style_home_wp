@@ -1,0 +1,91 @@
+.section-header {
+    min-height: 700px;
+    background-image: url(../img/main_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    position: relative;
+}
+
+.logo {
+    margin: auto 0;
+}
+
+.top_menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.top_menu {
+    background-color: #5CA192A0;
+    color: white;
+    display: flex;
+    height: 100px;
+}
+
+.top_menu ._container{ 
+    display: flex;
+     justify-content: space-between;
+}
+
+/* Телефон в шапке */
+
+.phone_head_blk a{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.phone_head_blk p{
+    margin: 0;
+}
+
+.phone_head_blk {
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin: auto 0;
+}
+
+/* Телефон в шапке */
+
+
+.head_button_lnk {
+    display: flex;
+    margin: auto 0;
+}
+
+.head_button_lnk a:first-child{
+    margin-right: 20px;
+}
+
+.head_button_lnk a{
+    text-align: left;
+    position: relative;
+    padding-left:40px;
+}
+
+.head_button_lnk a:before{
+    content: "";
+    width:29px;
+    height:29px;
+    position: absolute;
+    left:0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.head_button_lnk .h_calc_btn::before{
+    content:"";
+    background-image: url(../img/icons/calk.svg);
+}
+
+.head_button_lnk .h_phone_btn::before{
+    content:"";
+    background-image: url(../img/icons/phone.svg);
+}
+
+/* Контент баннера */
+
+/* Контент баннера end */

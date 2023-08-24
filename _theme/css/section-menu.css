@@ -1,0 +1,113 @@
+/* Меню */
+
+.menu_head {
+    display: flex;
+    margin: auto 0;
+}
+
+.menu_head li{
+    display: flex;
+    position: relative;
+} 
+
+.menu_head a{ 
+    margin: auto 10px;
+    line-height: 1;
+}
+
+.menu_head a.sub_puncts{
+    position: relative;
+    padding-right:20px;
+} 
+
+.menu_head a.sub_puncts:after{
+    content: ""; 
+    position: absolute;
+    width: 11px;
+    height: 6px;
+    background-image: url(../img/icons/arrow_down.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 0;
+    top:calc( 50% - 3px )
+}
+
+.menu_head a.sub_puncts:hover:after{
+    content: "";
+    transform: rotate(180deg);
+}
+
+.menu_sub_puncts {
+    width:100%;
+    background-color: white;
+    padding: 20px 0;
+    display: none;
+    position: fixed;
+    left: 0;
+    top:calc(0px + 100px);
+    color:black
+}
+
+.menu_sub_puncts ._container{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.menu_sub_puncts a{ 
+    color: black;
+    margin: 0;
+}
+
+.menu_head li:hover .menu_sub_puncts{
+    display: block;
+}
+
+.menu_sub_puncts .subaction_blk {
+    text-align: left;
+}
+
+.menu_sub_puncts .subaction_blk span {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.menu_sub_puncts .subaction_blk p {
+    font-size: 34px;
+    margin: 10px 0;
+}
+
+.menu_sub_puncts .subaction_blk .btn {
+    width: 100%;
+}
+
+
+.menu_sub_puncts .subcontacts_blk {
+    text-align: left;
+}
+
+.menu_sub_puncts .subpuncts_blk{
+    flex: 1;
+    padding: 0 10%;
+}
+
+.menu_sub_puncts .subpuncts_blk ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 0;
+}
+
+.menu_sub_puncts .subpuncts_blk ul li {
+    width:30%;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.menu_sub_puncts .subpuncts_blk ul li::before { 
+    content: "-";
+    margin-right: 5px;
+}
+
+/* Меню end */
