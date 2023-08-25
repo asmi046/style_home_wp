@@ -88,4 +88,60 @@
 
 /* Контент баннера */
 
+.header_content {
+    color: white;
+    
+}
+
+.header_content ._container{
+    display: flex;
+    margin-top: 50px;
+    line-height: 1.2;
+}
+
+
+.header_content ._container .text{
+    text-align: left;
+    flex: 1;
+}
+
+.header_content ._container .text h1{
+    font-size: 48px;
+}
+
+.header_content ._container .text p{
+    font-size: 28px;
+}
+
+
+.header_content ._container .form_blk{
+    color: black;
+    background-color: white;
+    padding: 40px 50px;
+    flex: 1;
+    max-width: 470px;
+    border-radius: var(--border-radius-big) 0 var(--border-radius-big) 0;
+}
+
+.header_content ._container .form_blk h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.header_content ._container .form_blk form { 
+    margin-bottom: 20px;
+}
+
+.bn_form_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.bn_form_wrapper label{
+    width:44%;
+}
+
+
 /* Контент баннера end */

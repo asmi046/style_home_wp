@@ -1,0 +1,109 @@
+.vidi-remonta-i-ceni-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.vr-element {
+    width:32%;
+    height: 370px;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.vr-element:first-child {
+    border-radius: var(--border-radius-big) 0 0 0;
+}
+
+.vr-element:nth-child(3) {
+    border-radius: 0 var(--border-radius-big)  0 0;
+}
+
+.vr-element:nth-child(4) {
+    border-radius: 0 0 0 var(--border-radius-big);
+}
+
+.vr-element:last-child {
+    border-radius: 0 0 var(--border-radius-big) 0;
+}
+
+.vr-element .text{
+    background-color: var(--color-main-green);
+    border-radius: var(--border-radius-big) 0 0 0;
+    padding: 20px 3%;
+    width: 80%;
+    color:white;
+    position: absolute;
+    right: 0;
+    bottom:0;
+}
+
+.vr-element .text span{ 
+    text-align: left;
+    display: block;
+    font-size: 24px;
+    padding-left: 75px;
+    position: relative;
+}
+
+#vr-kvrem {
+    background-image: url(../img/remont_type/novostr_rem.jpg);
+}
+
+#vr-kaprem {
+    background-image: url(../img/remont_type/kap_rem.jpg);
+}
+
+#vr-elitrem {
+    background-image: url(../img/remont_type/elit_rem.jpg);
+}
+
+#vr-kosmrem {
+    background-image: url(../img/remont_type/kosm_rem.jpg);
+}
+
+#vr-santechrem {
+    background-image: url(../img/remont_type/santeh_rem.jpg);
+}
+
+#vr-officrem {
+    background-image: url(../img/remont_type/ofic_rem.jpg);
+}
+
+.vr-element .text span:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#vr-kvrem .text span:before { 
+    background-image: url(../img/icons/remont_type/nov_rem.svg);
+}
+
+#vr-kaprem .text span:before { 
+    background-image: url(../img/icons/remont_type/kap_rem.svg);
+}
+
+#vr-elitrem .text span:before { 
+    background-image: url(../img/icons/remont_type/elit_rem.svg);
+}
+
+#vr-kosmrem .text span:before { 
+    background-image: url(../img/icons/remont_type/kosm_rem.svg);
+}
+
+#vr-santechrem .text span:before { 
+    background-image: url(../img/icons/remont_type/santech_rem.svg);
+}
+
+#vr-officrem .text span:before { 
+    background-image: url(../img/icons/remont_type/offic_rem.svg);
+}

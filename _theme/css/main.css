@@ -1,8 +1,11 @@
 :root {
     --color-main-green: #5CA192;
     --color-main-gray: #F6F6F6;
+    --color-main-dark-gray: #C3C3C3;
+    --color-main-superdark-gray: #878787;
     --border-radius-s-mini: 10px;
-    --border-radius-mini: 15px
+    --border-radius-mini: 15px;
+    --border-radius-big: 35px
 }
 
 body {
@@ -33,6 +36,11 @@ a {
     width: 1440px;
 }
 
+._container > h2{ 
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
 .btn {
     background-color: var(--color-main-green);
     color:white!important;
@@ -41,6 +49,11 @@ a {
     padding: 10px 40px;
     display: inline-block;
     border: none;
+}
+
+.snoska {
+    font-size: 12px;
+    color: var(--color-main-superdark-gray);
 }
 
 /*-----Скролбар-----*/
@@ -64,3 +77,66 @@ a {
 }
 
 /*-----Скролбар end-----*/
+
+/* Компоненты форм */
+
+label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 10px;
+}
+
+label .select_wrapper,
+label input[type=text],
+label input[type=tel],
+label input[type=email]{ 
+    background-color: var(--color-main-gray);
+    border: 1px solid var(--color-main-dark-gray);
+    height: 37px;
+    border-radius: var(--border-radius-s-mini);
+    width:100%;
+    outline:none;
+}
+
+label .select_wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+label .select_wrapper select {
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    width:110%;
+    padding-left:10px;
+    padding-right:10px;
+    outline:none;
+}
+
+label .select_wrapper:after {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 6px;
+    background-image: url(../img/icons/arrow_gray.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 10px;
+    top: calc( 50% - 3px );
+}
+
+label span {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* Компоненты форм end */
+
+@media (max-width: 1440px) { 
+    ._container {
+        margin: 0 auto;
+        width: 96%;
+    }
+ }

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <?php get_template_part('template-parts/section-header');?>
-    <?php get_template_part('template-parts/section-banner');?>
+    <?php //get_template_part('template-parts/section-banner');?>
     <?php get_template_part('template-parts/section-vidi-remonta-i-ceni');?>
     <?php get_template_part('template-parts/section-text-blk');?>
     <?php get_template_part('template-parts/section-preim-1');?>
