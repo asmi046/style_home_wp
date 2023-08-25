@@ -20,3 +20,23 @@
 //     }
 
 // })
+
+
+// Скрывалка текста
+
+
+document.addEventListener("DOMContentLoaded", () => { 
+    let showBtn = document.getElementById("showTxtBtn") 
+    let textBlk = document.getElementById("textBlkSh") 
+
+    showBtn.addEventListener("click", function (e) { 
+        e.preventDefault()
+        textBlk.classList.toggle("shoved")
+
+        if (textBlk.classList.contains("shoved"))
+            showBtn.innerHTML = "Свернуть"
+        else
+            showBtn.innerHTML = "Читать далее"
+
+    })
+})
