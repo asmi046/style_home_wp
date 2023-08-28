@@ -1,0 +1,86 @@
+.price_pod_cl_blk .taphead {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--color-main-dark-gray);
+    margin-bottom: 40px;
+}
+
+.price_pod_cl_blk .taphead .th_elem.select {
+    border-bottom: 2px solid var(--color-main-green);
+}
+
+.price_pod_cl_blk .taphead .th_elem {
+    font-size: 20px;
+    padding: 0 5px 5px 5px;
+    margin: 0 20px;
+}
+
+.price_pod_cl_blk .tap_body { 
+    width: 100%;
+}
+
+.price_pod_cl_blk .tap_body .tap_slide{ 
+    display: none;
+}
+
+
+.price_pod_cl_blk .tap_body .tap_slide.select{ 
+    display: flex;
+}
+
+/* Блок цены за ремонт под ключ */
+
+.price_elements {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    border-radius: var(--border-radius-big) 0 var(--border-radius-big) 0;
+}
+
+.price_blk {
+    width:32%;
+    background-color: var(--color-main-gray);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info_blk {
+    background-color: #C7DBD6;
+    margin-top: 20px;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    font-size: 16px;
+    border-top-right-radius: var(--border-radius-big);
+    display: block;
+}
+
+.info_blk:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: var(--color-main-green);
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-image: url(../img/icons/inform.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60% 60%;
+}
+
+.srok_element {
+    border-top: 1px solid var(--color-main-dark-gray);
+    border-bottom: 1px solid var(--color-main-dark-gray);
+    padding: 20px;
+    font-size: 18px;
+    margin-top: auto;
+}
+
+.price_blk .price_in_blk {
+    margin: 20px 0 40px 0;
+}
+
+/* Блок цены за ремонт под ключ end */

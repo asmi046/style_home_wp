@@ -29,9 +29,6 @@
     border-bottom-right-radius: var(--border-radius-big);
 }
 
-.otd_usl_blk .otd_usl:first-child {
-}
-
 .otd_usl_blk .otd_usl h3::before{
     content: "";
     width: 39px;
@@ -48,31 +45,7 @@
     font-weight: bold;
 }
 
-.otd_usl_blk .otd_usl ul{
-   list-style: none; 
-   padding: 0;
-   margin-top: 40px;
-   width:75%;
 
-}
-
-.otd_usl_blk .otd_usl ul li:before{
-    content: "";
-    width:6px;
-    height:6px;
-    border-radius: 50%;
-    background-color: var(--color-main-green);
-    position: absolute;
-    left: 0;
-    top: 10px;
-}
-
-.otd_usl_blk .otd_usl ul li{
-    font-size: 22px;
-    position: relative;
-    padding-left: 20px;
-    margin-bottom: 5px;
-}
 
 .otd_usl_blk .otd_usl .price{ 
     font-weight: bold;
