@@ -1,0 +1,9 @@
+.dop_uslugi_blk {
+    background-color: var(--color-main-green);
+    color: white;
+    padding: 40px;
+}
+
+.du_head {
+    border-bottom: 1px solid white;
+}

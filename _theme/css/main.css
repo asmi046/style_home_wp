@@ -101,6 +101,10 @@ a {
     font-weight: 500;
  }
 
+.standart_roundet {
+    border-radius: var(--border-radius-big) 0 var(--border-radius-big) 0;
+}
+
 /*-----Скролбар-----*/
 
 ::-webkit-scrollbar {
