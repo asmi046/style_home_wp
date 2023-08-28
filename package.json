@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
   "scripts": {
     "start": "gulp",
     "clear_r": "ssh s_home@vistre34.beget.tech \"rm  vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/*.*\"",
@@ -37,7 +36,6 @@
     "send_fonts": "scp -C -r fonts s_home@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/",
     "send_all": "scp -C -r _theme/* s_home@vistre34.beget.tech:vistrel46.ru/public_html/wp-content/themes/vistrel_kursk/"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",

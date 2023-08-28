@@ -1,0 +1,41 @@
+.section-otzivi {
+	padding: 65px 0;
+}
+
+.section-otzivi h2 {
+	margin-bottom: 86px;
+}
+
+.section-otzivi__inner {
+	display: flex;
+	margin: 0 -16.35px;
+}
+
+.section-otzivi__column {
+	display: flex;
+	flex: 0 1 25%;
+	padding: 0 16.35px 16.35px 16.35px;
+}
+
+.section-otzivi__card-otzivi {}
+
+.otzivi-card {
+	flex: 0 1 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 17px 37px 17px;
+	overflow: hidden;
+	background-color: #F2F2F2;
+	border-radius: 32px 0 32px 0;
+}
+
+.otzivi-card__header {}
+
+.otzivi-card__body {}
+
+.otzivi-card__btn-block {}
+
+.otzivi-card__btn {}
+
+.btn {}
