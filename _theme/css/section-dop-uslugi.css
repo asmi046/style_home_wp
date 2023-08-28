@@ -6,4 +6,68 @@
 
 .du_head {
     border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.du_head h2{
+    font-size: 42px;
+    padding: 0px 0px 40px 0px;
+}
+
+.du_body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.du_body p{ 
+    width: 32%;
+    margin-bottom: 40px;
+    line-height: 1.2;
+    padding-left: 80px;
+    position: relative;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.du_body p::before{ 
+    content:"";
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left:0;
+    top:5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.du_body p[data-duname="Установим кондиционеры"]::before{ 
+    content:"";
+    background-image: url(../img/icons/dop_usl/ust_cond.svg);
+}
+
+.du_body p[data-duname="Установим пластиковые окна"]::before{ 
+    content:"";
+    background-image: url(../img/icons/dop_usl/ust_plokna.svg);
+}
+
+.du_body p[data-duname="Согласуем перепланировку и электропроект"]::before{ 
+    content:"";
+    background-image: url(../img/icons/dop_usl/planirovka.svg);
+}
+
+.du_body p[data-duname="Проведем генеральную уборку после ремонта"]::before{ 
+    content:"";
+    background-image: url(../img/icons/dop_usl/uborka.svg);
+}
+
+.du_body p[data-duname="Установим натяжные потолки"]::before{ 
+    content:"";
+    background-image: url(../img/icons/dop_usl/n-potolki.svg);
+}
+
+.du_body p[data-duname="Создадим эксклюзивный дизайн интерьера"]::before{ 
+    content:"";
+    background-image: url(../img/icons/dop_usl/exkl_design.svg);
 }
