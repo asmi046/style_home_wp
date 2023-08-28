@@ -1,0 +1,38 @@
+.comand_blk {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.comand_blk .command_person{ 
+    width: 23%;
+    background-color: var(--color-main-gray);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.comand_blk .command_person .pictute_wrap{ 
+    height: 360px;
+}
+
+.comand_blk .command_person .pictute_wrap img{ 
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.comand_blk .command_person .command_name_dolg{
+    padding: 0 20px; 
+}
+
+.comand_blk .command_person .command_name_dolg .name{ 
+    font-size: 28px;
+    font-weight: 500;
+    color:var(--color-main-green)
+}
+
+.comand_blk .command_person .command_name_dolg .dolg{ 
+    font-size: 18;
+    padding-bottom: 20px;
+}
