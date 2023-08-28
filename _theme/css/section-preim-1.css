@@ -1,0 +1,70 @@
+.section-preim-1 ._container > h2{
+    margin-bottom: 150px;
+}
+
+.preim_1_blk {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-main-gray);
+    border-radius: var(--border-radius-big) 0 var(--border-radius-big) 0;
+    padding: 40px 50px;
+}
+
+.preim_1_blk .left {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+
+.preim_1_blk .left h2{ 
+    margin-top: auto;
+}
+
+
+.preim_1_blk .left .btn{ 
+    width: fit-content;
+}
+
+.preim_1_blk .left .img_preim_1{
+    background-image: url(../img/preim_1.jpg);
+    width:550px;
+    height: 270px;
+    border-radius: 200px 0 200px 0;
+    border: 10px solid white;
+    position: absolute;
+    left: -95px;
+    top: -130px;
+}
+
+.preim_1_blk .right {
+    flex:1;
+    padding-left: 190px;
+}
+
+
+.preim_list {
+    text-align: left;
+    font-size: 24px;
+}
+
+.preim_list li::before{
+    content:"";
+    width: 28px;
+    height: 28px;
+    background-image: url(../img/icons/list-mark.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    position: absolute;
+    left:0
+
+}
+
+.preim_list li{ 
+    margin-bottom: 20px;
+    padding-left: 40px;
+    position: relative;
+}
