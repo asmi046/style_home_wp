@@ -1,0 +1,31 @@
+.ur_zashita_blk {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-main-green);
+    color: white;
+    overflow: hidden;
+}
+
+
+.ur_zashita_blk .img{ 
+    background-image: url(../img/ur_z.jpg);
+    flex: 1;
+    border-bottom-right-radius: 55%;
+}
+
+.ur_zashita_blk .list{ 
+    padding: 40px;
+    flex:2;
+    margin-bottom: 40px;
+}
+
+.ur_zashita_blk .list h3{ 
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.ur_zashita_blk .list .preim_list li::before{ 
+    font-size: 30px;
+    margin-bottom: 40px;
+    background-image: url(../img/icons/list-mark-white.svg)
+}
