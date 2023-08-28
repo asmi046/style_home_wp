@@ -1,0 +1,76 @@
+.remont-bez-nervov-blk {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.remont-bez-nervov-blk .rbn_punkt { 
+    width: 32%;
+    margin-bottom: 20px;
+    background-color: var(--color-main-gray);
+}
+
+.remont-bez-nervov-blk .rbn_punkt:first-child {
+    border-top-left-radius: var(--border-radius-big);
+}
+
+.remont-bez-nervov-blk .rbn_punkt:nth-child(3) {
+    border-top-right-radius: var(--border-radius-big);
+}
+
+.remont-bez-nervov-blk .rbn_punkt:nth-child(4) {
+    border-bottom-left-radius: var(--border-radius-big);
+}
+
+.remont-bez-nervov-blk .rbn_punkt:last-child {
+    border-bottom-right-radius: var(--border-radius-big);
+}
+
+.remont-bez-nervov-blk .rbn_punkt .img_wrapper {
+    height: 165px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.remont-bez-nervov-blk .rbn_punkt .img_wrapper .img{
+    width:80%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 75%;
+}
+
+
+.remont-bez-nervov-blk .rbn_punkt .img_wrapper .img[data-punktname="Все официально"]{
+    background-image: url(../img/bez_problem/oficial.jpg);
+}
+
+.remont-bez-nervov-blk .rbn_punkt .img_wrapper .img[data-punktname="Без ссор с соседями"]{
+    background-image: url(../img/bez_problem/bez-ssor.jpg);
+}
+
+.remont-bez-nervov-blk .rbn_punkt .img_wrapper .img[data-punktname="Чистота на объекте"]{
+    background-image: url(../img/bez_problem/histota.jpg);
+}
+
+.remont-bez-nervov-blk .rbn_punkt .img_wrapper .img[data-punktname="Закроем все потребности"]{
+    background-image: url(../img/bez_problem/potrebnosti.jpg);
+}
+
+.remont-bez-nervov-blk .rbn_punkt .img_wrapper .img[data-punktname="Делаем хорошо с первого раза"]{
+    background-image: url(../img/bez_problem/s_pervogo.jpg);
+}
+
+.remont-bez-nervov-blk .rbn_punkt .img_wrapper .img[data-punktname="Качественные материалы"]{
+    background-image: url(../img/bez_problem/k_materials.jpg);
+}
+
+.remont-bez-nervov-blk .rbn_punkt .text_wrp { 
+    padding: 20px 40px 40px 40px;
+}
+
+.remont-bez-nervov-blk .rbn_punkt .text_wrp p{ 
+    margin-top: 40px;
+}

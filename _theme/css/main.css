@@ -105,6 +105,20 @@ a {
     border-radius: var(--border-radius-big) 0 var(--border-radius-big) 0;
 }
 
+.h3_line{
+    position: relative;
+}
+
+.h3_line::before{
+    content: "";
+    width: 39px;
+    height: 2px;
+    background-color: var(--color-main-green);
+    left: 0;
+    bottom:-15px;
+    position: absolute;
+}
+
 /*-----Скролбар-----*/
 
 ::-webkit-scrollbar {

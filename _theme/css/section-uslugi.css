@@ -29,15 +29,6 @@
     border-bottom-right-radius: var(--border-radius-big);
 }
 
-.otd_usl_blk .otd_usl h3::before{
-    content: "";
-    width: 39px;
-    height: 2px;
-    background-color: var(--color-main-green);
-    left: 0;
-    bottom:-15px;
-    position: absolute;
-}
 
 .otd_usl_blk .otd_usl h3{
     position: relative;
