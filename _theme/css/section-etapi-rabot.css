@@ -1,0 +1,39 @@
+.etapi_wrapper {
+    position: relative;
+}
+
+.section-etapi-rabot .spl_line {
+    width:100%;
+    border:0.5px solid var(--color-main-gray);
+    position: absolute;
+    top:20px;
+    z-index: 1;
+}
+
+.etapi_line {
+    z-index: 10;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.etap {
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: white;
+}
+
+.etap .circle {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    border:10px solid var(--color-main-dark-gray);
+    border-radius: 50%;
+    
+}
+
+.etap:hover .circle { 
+    border-color: var(--color-main-green);
+}
