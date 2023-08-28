@@ -1,0 +1,62 @@
+.direktor_obr_blk {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.direktor_img {
+    position: absolute;
+    height: 100%;
+    width: 380px;
+    background-image: url(../img/direktor.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    left: 0;
+    bottom: 0;
+
+}
+
+.direktor_obr_blk .top{
+    display: flex;
+    justify-content: end;
+}
+
+.direktor_obr_blk .top .greenpl{ 
+    background-color: var(--color-main-green);
+    color: white;
+    width: 70%;
+    padding:40px 100px;
+    border-radius: 150px 0 150px 0;
+}
+
+.direktor_obr_blk .top .greenpl .pq{ 
+    font-weight: bold;
+    font-size: 28px;
+    position: relative;
+}
+
+.direktor_obr_blk .top .greenpl .pq:before{
+    content: "\201C";
+    position: absolute;
+    left: -25px;
+    top:-10px;
+    font-size: 48px;
+    font-weight: normal;
+    
+}
+
+.direktor_obr_blk .top .greenpl .tt{ 
+    font-size: 24px;
+}
+
+
+.direktor_obr_blk .bottom {
+    background-color: var(--color-main-gray);
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.direktor_obr_blk .bottom p{
+    margin: 40px 40px 40px 35%;
+}
