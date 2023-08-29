@@ -85,7 +85,7 @@ a {
      background-color: var(--color-main-green);
      position: absolute;
      left: 0;
-     top: 10px;
+     top: calc( 50% - 3px);
  }
  
  .ul_in_blk li{
@@ -160,6 +160,7 @@ label input[type=email]{
     border-radius: var(--border-radius-s-mini);
     width:100%;
     outline:none;
+    padding: 0 15px;
 }
 
 label .select_wrapper {
@@ -172,8 +173,7 @@ label .select_wrapper select {
     background-color: transparent;
     height: 100%;
     width:110%;
-    padding-left:10px;
-    padding-right:10px;
+
     outline:none;
 }
 
