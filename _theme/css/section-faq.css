@@ -63,7 +63,7 @@
     transform: rotate(180deg);
 }
 
-@media (max-width: 1024px) { 
+@media (max-width: 768px) { 
     .faq_blk {
         flex-direction: column;
     }

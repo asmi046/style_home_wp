@@ -32,3 +32,28 @@
     font-size: 18px;
     margin: 2px 0;
 }
+
+@media (max-width: 768px) { 
+    .moscow_map_blk {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .moscow_map_blk .map {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .moscow_map_blk .map img{
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 512px) { 
+    .region_list ul li { 
+        width:48%;
+        display: inline-block;
+        font-size: 14px;
+    }
+}

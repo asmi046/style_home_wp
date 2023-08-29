@@ -17,7 +17,7 @@
     <?php get_template_part('template-parts/section-otzivi');?>
     <?php get_template_part('template-parts/section-vizov-mastera');?>
     <?php get_template_part('template-parts/section-faq');?>
-    <?php //get_template_part('template-parts/section-moscow-card');?>
+    <?php get_template_part('template-parts/section-moscow-card');?>
     <?php get_template_part('template-parts/section-footer');?>
 
 
