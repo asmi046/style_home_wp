@@ -98,3 +98,55 @@
     margin-left: 150px;
     margin-right: 20px;
 }
+
+@media (max-width: 1330px) {
+    .green_pl_srohno {
+        padding-left: 110px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .vm_form_blk {
+        flex-direction: column;
+    }
+    .vm_form_blk .left {
+        padding-right: 40px;
+    }
+
+    .vm_form_blk form {
+        width: 100%;
+    }
+
+    .vm_form_blk .right {
+        padding-top: 0;
+    }
+
+}
+
+@media (max-width: 512px) { 
+    .vm_form_blk h2 {
+        font-size: 22px;
+    }
+
+    .vm_form_blk h3 {
+        font-size: 20px;
+    }
+
+    .vm_form_blk .right .wrap {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .green_pl_srohno .phone_time {
+        flex-direction: column;
+    }
+
+    .green_pl_srohno .phone_time a {
+        font-size: 28px;
+    }
+
+    .green_pl_srohno .phone_time p {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
