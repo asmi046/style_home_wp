@@ -49,6 +49,8 @@ function my_assets()
 	// Подключение скриптов
 
 	wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array(), $scrypt_version, true);
+	wp_enqueue_script('tabs_js', get_template_directory_uri() . '/js/tabs.js', array(), $scrypt_version, true);
+	wp_enqueue_script('mobile_menu_js', get_template_directory_uri() . '/js/mobile-menu.js', array(), $scrypt_version, true);
 
 
 	wp_localize_script('main', 'allAjax', array(
