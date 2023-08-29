@@ -1,5 +1,8 @@
 <?php
 
+include "site-data.php";
+include "helper-function.php";
+
 define("COMPANY_NAME", "");
 define("MAIL_RESEND", "");
 

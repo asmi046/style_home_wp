@@ -14,8 +14,8 @@
             </div>
 
             <div class="phone_head_blk">
-                <a href="tel:+74952876725">+7 495 287 67 25</a>
-                <p>Ежедневно с 9.00 до 21.00</p>
+                <a href="tel:<?php echo get_clear_phone(PHONE); ?>"><? echo PHONE; ?></a>
+                <p>Ежедневно <?php echo TIME_WORK; ?></p>
             </div>
         </div>
     </div>

@@ -29,8 +29,8 @@
                     <h3>Нужно срочно?</h3>
                     <p>Проведем осмотр и консультацию по видеосвязи</p>
                     <div class="phone_time">
-                        <a href="#">+7 495 287 67 25</a>
-                        <p class="time">с 10:00 до 21:00</p>
+                        <a href="tel:<?php echo get_clear_phone(PHONE); ?>"><? echo PHONE; ?></a>
+                        <p class="time"><?php echo TIME_WORK; ?></p>
                     </div>
                 </div>
             </div>
