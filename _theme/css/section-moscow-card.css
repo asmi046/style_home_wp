@@ -1,0 +1,34 @@
+.moscow_map_blk {
+    background-color: var(--color-main-gray);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.moscow_map_blk .map{
+    margin-right: 80px;
+    flex:2;
+}
+
+.moscow_map_blk h2{
+    font-size: 42px;
+}
+
+.region_list {
+    flex:3;
+}
+
+.region_list ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+}
+
+.region_list ul li{ 
+    width:32%;
+    font-size: 18px;
+    margin: 2px 0;
+}
