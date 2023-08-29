@@ -166,14 +166,15 @@ label input[type=email]{
 label .select_wrapper {
     overflow: hidden;
     position: relative;
+    padding: 0;
 }
 
 label .select_wrapper select {
     border: none;
     background-color: transparent;
     height: 100%;
-    width:110%;
-
+    width:115%;
+    padding-left: 15px;
     outline:none;
 }
 
@@ -201,5 +202,15 @@ label span {
     ._container {
         margin: 0 auto;
         width: 96%;
+    }
+ }
+
+@media (max-width: 680px) { 
+    ._container > h2 {
+        font-size: 22px;
+    }
+
+    section {
+        margin-top: 35px;
     }
  }

@@ -145,3 +145,42 @@
 
 
 /* Контент баннера end */
+
+@media (max-width: 1024px) { 
+    .header_content ._container {
+        flex-direction: column;
+    }
+    .header_content ._container .form_blk {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+ }
+
+ @media (max-width: 680px) { 
+    .header_content ._container .text h1 {
+        font-size: 28px;
+    }
+
+    .header_content ._container .text p {
+        font-size: 20px;
+    }
+
+    .phone_head_blk,
+    .head_button_lnk {
+        display: none;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+    .top_menu { 
+        height: 70px;
+    }
+
+    .bn_form_wrapper label {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+ }

@@ -13,11 +13,11 @@
     <?php get_template_part('template-parts/section-remont-bez-nervov');?>
     <?php get_template_part('template-parts/section-uridiceskaya-zashita');?>
     <?php get_template_part('template-parts/section-etapi-rabot');?>
-    <?php get_template_part('template-parts/section-direktor');?>
+    <?php //get_template_part('template-parts/section-direktor');?>
     <?php get_template_part('template-parts/section-otzivi');?>
-    <?php get_template_part('template-parts/section-vizov-mastera');?>
-    <?php get_template_part('template-parts/section-faq');?>
-    <?php get_template_part('template-parts/section-moscow-card');?>
+    <?php //get_template_part('template-parts/section-vizov-mastera');?>
+    <?php //get_template_part('template-parts/section-faq');?>
+    <?php //get_template_part('template-parts/section-moscow-card');?>
     <?php get_template_part('template-parts/section-footer');?>
 
 

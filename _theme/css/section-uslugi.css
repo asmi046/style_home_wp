@@ -83,3 +83,42 @@
 .otd_usl_blk .otd_usl .photo[data-uslname="Электромонтажные работы"] {
     background-image: url(../img/usl_otd/rem_electro.jpg);
 }
+
+@media (max-width: 1280px) {  
+    .otd_usl_blk .otd_usl .photo {
+        width: 100px;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1024px) {  
+    .otd_usl_blk .otd_usl {
+        width: 48%;
+        border-radius: var(--border-radius-big) 0 var(--border-radius-big) 0;
+    }
+
+    .otd_usl_blk .otd_usl:first-child,
+    .otd_usl_blk .otd_usl:last-child, 
+    .otd_usl_blk .otd_usl:nth-child(4),
+    .otd_usl_blk .otd_usl:nth-child(3), 
+    .otd_usl_blk .otd_usl:nth-child(2), 
+    .otd_usl_blk .otd_usl:nth-child(5) {
+        border-radius: var(--border-radius-big) 0 var(--border-radius-big) 0;
+    }
+}
+
+@media (max-width: 768px) {  
+    .otd_usl_blk .otd_usl {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) { 
+    .otd_usl_blk .otd_usl .photo {
+        width: 90px;
+    }
+
+    .otd_usl_blk .otd_usl {
+        padding: 20px;
+    }
+}

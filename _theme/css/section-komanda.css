@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    overflow: hidden;
 }
 
 .comand_blk .command_person .pictute_wrap{ 
@@ -35,4 +36,18 @@
 .comand_blk .command_person .command_name_dolg .dolg{ 
     font-size: 18;
     padding-bottom: 20px;
+}
+
+
+@media (max-width: 1024px) {  
+    .comand_blk .command_person {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 375px) {  
+    .comand_blk .command_person {
+        width: 100%;
+    }
 }
