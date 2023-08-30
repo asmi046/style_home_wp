@@ -1,5 +1,11 @@
+.section-footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .section-footer {
     font-family: "TT Norms";
+    color: #fff;
 }
 
 .section-footer__top {
