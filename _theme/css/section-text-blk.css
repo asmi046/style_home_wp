@@ -151,3 +151,24 @@
 }
 
 /* Скрывалка текста end */
+
+@media (max-width: 1024px) {  
+    .page_text_blk .cta {
+        min-width: 300px;
+    }
+}
+
+@media (max-width: 512px) {  
+    .page_text_blk .cta {
+        min-width: 100%;
+    }
+
+    .page_text_blk { 
+        flex-direction: column;
+    }
+
+    .page_text_blk .text_blk {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+}

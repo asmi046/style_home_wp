@@ -85,7 +85,7 @@ a {
      background-color: var(--color-main-green);
      position: absolute;
      left: 0;
-     top: 10px;
+     top: calc( 50% - 3px);
  }
  
  .ul_in_blk li{
@@ -160,20 +160,21 @@ label input[type=email]{
     border-radius: var(--border-radius-s-mini);
     width:100%;
     outline:none;
+    padding: 0 15px;
 }
 
 label .select_wrapper {
     overflow: hidden;
     position: relative;
+    padding: 0;
 }
 
 label .select_wrapper select {
     border: none;
     background-color: transparent;
     height: 100%;
-    width:110%;
-    padding-left:10px;
-    padding-right:10px;
+    width:115%;
+    padding-left: 15px;
     outline:none;
 }
 
@@ -201,5 +202,15 @@ label span {
     ._container {
         margin: 0 auto;
         width: 96%;
+    }
+ }
+
+@media (max-width: 680px) { 
+    ._container > h2 {
+        font-size: 22px;
+    }
+
+    section {
+        margin-top: 35px;
     }
  }

@@ -9,6 +9,7 @@
     width: 32%;
     margin-bottom: 20px;
     background-color: var(--color-main-gray);
+    overflow: hidden;
 }
 
 .remont-bez-nervov-blk .rbn_punkt:first-child {
@@ -73,4 +74,38 @@
 
 .remont-bez-nervov-blk .rbn_punkt .text_wrp p{ 
     margin-top: 40px;
+}
+
+@media (max-width: 768px) {  
+    .remont-bez-nervov-blk .rbn_punkt {
+        width: 48%;
+        border-radius: var(--border-radius-big) 0 var(--border-radius-big) 0;
+    }
+
+    .remont-bez-nervov-blk .rbn_punkt:first-child,
+    .remont-bez-nervov-blk .rbn_punkt:last-child, 
+    .remont-bez-nervov-blk .rbn_punkt:nth-child(4),
+    .remont-bez-nervov-blk .rbn_punkt:nth-child(3), 
+    .remont-bez-nervov-blk .rbn_punkt:nth-child(2), 
+    .remont-bez-nervov-blk .rbn_punkt:nth-child(5) {
+        border-radius: var(--border-radius-big) 0 var(--border-radius-big) 0;
+    } 
+}
+
+@media (max-width: 768px) {  
+    .remont-bez-nervov-blk .rbn_punkt {
+        width: 100%;
+    }
+
+    .remont-bez-nervov-blk .rbn_punkt .text_wrp {
+        padding: 10px 20px 5px 20px;
+    }
+
+    .remont-bez-nervov-blk .rbn_punkt .img_wrapper {
+        height: 120px;
+    }
+    .remont-bez-nervov-blk .rbn_punkt .img_wrapper .img {
+        border-bottom-left-radius: 120px;
+        height: 100%;
+    }
 }

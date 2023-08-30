@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    background-color: white;
+    
 }
 
 .etap .circle {
@@ -31,9 +31,43 @@
     margin-bottom: 20px;
     border:10px solid var(--color-main-dark-gray);
     border-radius: 50%;
-    
+    background-color: white;
 }
 
 .etap:hover .circle { 
     border-color: var(--color-main-green);
+}
+
+@media (max-width: 1024px) {  
+    .etapi_line {
+        flex-direction: column;
+    }
+
+    .etap { 
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    .etap .etap_text_wrapper{ 
+        margin-left: 20px;
+    }
+
+    .etap .etap_text_wrapper p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .etap .circle {
+        margin-top: auto;
+        margin-bottom: auto;
+        min-width: 40px;
+        min-height: 40px;
+    }
+
+    .section-etapi-rabot .spl_line {
+        width:1px;
+        height: 100%;
+        top: 0;
+        left: 60px
+    }
 }

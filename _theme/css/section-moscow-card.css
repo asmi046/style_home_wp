@@ -1,0 +1,59 @@
+.moscow_map_blk {
+    background-color: var(--color-main-gray);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.moscow_map_blk .map{
+    margin-right: 80px;
+    flex:2;
+}
+
+.moscow_map_blk h2{
+    font-size: 42px;
+}
+
+.region_list {
+    flex:3;
+}
+
+.region_list ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+}
+
+.region_list ul li{ 
+    width:32%;
+    font-size: 18px;
+    margin: 2px 0;
+}
+
+@media (max-width: 768px) { 
+    .moscow_map_blk {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .moscow_map_blk .map {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .moscow_map_blk .map img{
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 512px) { 
+    .region_list ul li { 
+        width:48%;
+        display: inline-block;
+        font-size: 14px;
+    }
+}

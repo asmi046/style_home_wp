@@ -11,6 +11,8 @@
     position: relative;
     margin-bottom: 20px;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .vr-element:first-child {
@@ -107,3 +109,49 @@
 #vr-officrem .text span:before { 
     background-image: url(../img/icons/remont_type/offic_rem.svg);
 }
+
+@media (max-width: 1024px) { 
+    .vr-element {
+        width: 48%;
+    }
+
+    .vr-element:nth-child(4),
+    .vr-element:nth-child(3) {
+        border-radius: 0 0 0 0;
+    }
+
+    .vr-element:nth-child(2) {
+        border-radius: 0 var(--border-radius-big)  0 0;
+    }
+
+    .vr-element:nth-child(5) {
+        border-radius: 0 0 0  var(--border-radius-big);
+    }
+ }
+
+ @media (max-width: 512px) {
+    .vr-element:first-child,
+    .vr-element:last-child, 
+    .vr-element:nth-child(4),
+    .vr-element:nth-child(3), 
+    .vr-element:nth-child(2), 
+    .vr-element:nth-child(5) {
+        border-radius: var(--border-radius-big) 0 var(--border-radius-big) 0;
+    }
+
+    .vr-element {
+        width: 100%;
+        height: 280px;
+        border-radius: var(--border-radius-big) 0 var(--border-radius-big) 0;
+        overflow: hidden;
+    }
+
+    .vr-element .text span {
+        font-size: 20px;
+    }
+
+    .vr-element .text span:before {
+        width:38px;
+        height: 38px;
+    }
+ }
