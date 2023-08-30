@@ -1,0 +1,38 @@
+.section-footer {
+    font-family: "TT Norms";
+}
+
+.section-footer__top {
+    background-color: #4A4A49;
+}
+
+.content-footer {
+    padding: 40px 0 45px 0;
+}
+
+
+.footer-nav__list li {
+    margin-bottom: 5px;
+}
+
+.footer-nav__panel-card:last-child {
+    margin-top: 10px;
+}
+
+.footer-phone_text-agree {
+    font-size: 13px;
+}
+
+.section-footer__bot {
+    margin-top: 0px;
+    padding: 20px 5px 7px 5px;
+    background-color: #424241;
+}
+
+.section-footer__bot p {
+    max-width: 1240px;
+    margin: 0.8em auto;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+}

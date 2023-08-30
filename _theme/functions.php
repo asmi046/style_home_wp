@@ -42,6 +42,7 @@ function my_assets()
 	wp_enqueue_style("section-faq-css",  get_template_directory_uri() . "/css/section-faq.css", array(), $style_version, 'all');
 	wp_enqueue_style("section-moscow-card-css",  get_template_directory_uri() . "/css/section-moscow-card.css", array(), $style_version, 'all');
 	wp_enqueue_style("section-footer-css",  get_template_directory_uri() . "/css/section-footer.css", array(), $style_version, 'all');
+	wp_enqueue_style("dimastyle-css",  get_template_directory_uri() . "/css/dimastyle.css", array(), $style_version, 'all');
 
 	// Подключение скриптов
 

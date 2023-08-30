@@ -1,0 +1,24 @@
+.d_flex {
+    display: flex;
+}
+
+.f_jc_sb {
+    justify-content: space-between;
+}
+
+.phone_footer_blk {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    text-align: right;
+    margin: auto 0;
+}
+
+.phone_footer_blk a {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.phone_footer_blk .btn {
+    cursor: pointer;
+}
