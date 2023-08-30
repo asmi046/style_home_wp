@@ -25,9 +25,36 @@
     margin-top: 10px;
 }
 
+.footer-nav__panel-card img:first-child {
+    margin-right: 15px;
+}
+
+
+
+/*-Для телефона в футере-*/
+
+.phone_footer_blk {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    text-align: right;
+    margin: auto 0;
+}
+
+.phone_footer_blk a {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.phone_footer_blk .btn {
+    cursor: pointer;
+}
+
 .footer-phone_text-agree {
     font-size: 13px;
 }
+
+/*-Нижний ФУУТЕР-*/
 
 .section-footer__bot {
     margin-top: 0px;
