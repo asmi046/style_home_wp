@@ -60,3 +60,34 @@
 .direktor_obr_blk .bottom p{
     margin: 40px 40px 40px 35%;
 }
+
+@media (max-width: 768px) { 
+    .direktor_obr_blk .top {
+        order: 1;
+    }
+
+    .direktor_obr_blk .top .greenpl {
+        width: 100%;
+    }
+
+    .direktor_img {
+        position: relative;
+        left: unser;
+        top:unset;
+        height: 500px;
+        order: 2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .direktor_obr_blk .bottom {
+        order: 3;
+        margin-top: 0;
+        border-radius: 0 50px 0 50px;
+    }
+
+    .direktor_obr_blk .bottom p {
+        margin-left: 40px;
+    }
+
+}
