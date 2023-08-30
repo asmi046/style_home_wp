@@ -8,6 +8,7 @@
 
 .section-otzivi__inner {
 	display: flex;
+	align-items: start;
 	margin: 0 -16.35px;
 }
 
@@ -59,7 +60,6 @@
 	height: 30.63px;
 	border-radius: 50%;
 	margin-right: 18px;
-	border: 1px solid #000;
 }
 
 .otzivi-card__header-logo svg {
@@ -88,7 +88,6 @@
 	flex: 0 0 14px;
 	height: 14px;
 	margin-right: 5px;
-	border: 1px solid #000;
 }
 
 .rating-otzivi svg:last-child {
@@ -112,7 +111,6 @@
 	flex: 0 0 100%;
 	width: 100%;
 	height: 100%;
-	border: 1px solid #000;
 }
 
 .otzivi-card__body {
@@ -158,7 +156,6 @@
 	flex: 0 0 100%;
 	width: 100%;
 	height: 100%;
-	margin-right: 13px;
 }
 
 .otzivi-card__body-name-text {
