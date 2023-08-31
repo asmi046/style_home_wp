@@ -16,7 +16,7 @@
                 </div>
                 <p class="policy_descr">Заполняя данную форму и отправляя заявку вы соглашаетесь с <a href="/privacy-policy">политикой конфиденциальности</a></p>
                 <div class="control_wrap">
-                    <button class="btn" @click.prevent="sendMsg()">Отправить</button> <div v-show="showLoader" class="loader"></div>
+                    <button class="btn btn-fit" @click.prevent="sendMsg()">Отправить</button> <div v-show="showLoader" class="loader"></div>
                 </div>
 
             </form>

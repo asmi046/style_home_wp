@@ -1,4 +1,5 @@
 import ModalWin from './components/modal-win.js'
+import CalcForm from './components/calc-form.js'
 
 const pd = {
     mounted(el)  {  
@@ -20,5 +21,10 @@ const win_app = Vue.createApp({})
 win_app.directive('phone', pd)
 win_app.component('modal-win', ModalWin)
 win_app.mount("#win_app")
+
+const calc_form = Vue.createApp({})
+calc_form.directive('phone', pd)
+calc_form.component('calc-form', CalcForm)
+calc_form.mount("#calc_form_blk")
 
 

@@ -157,7 +157,7 @@ label {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin: 10px0;
+    margin: 10px 0;
 }
 
 label .select_wrapper,

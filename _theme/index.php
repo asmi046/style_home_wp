@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
     <?php get_template_part('template-parts/modal-win');?>
+    <?php get_template_part('template-parts/calc-form');?>
 
     <?php get_template_part('template-parts/section-header');?>
 
