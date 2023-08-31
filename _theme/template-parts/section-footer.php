@@ -6,7 +6,7 @@
                 <p>Качественный ремонт помещений <br> под ключ в Москве и области</p>
             </div>
             <div class="footer-nav__panel">
-                <p>Клиентам</p>
+                <p class="f_h">Клиентам:</p>
                 <ul class="footer-nav__list">
                     <li><a href="#">Цены</a></li>
                     <li><a href="#">Акции</a></li>
@@ -17,7 +17,7 @@
             </div>
 
             <div class="footer-nav__panel">
-                <p>Услуги</p>
+                <p class="f_h">Услуги:</p>
                 <ul class="footer-nav__list">
                     <li><a href="#">Дизайн</a></li>
                     <li><a href="#">Ремонт</a></li>
@@ -27,7 +27,7 @@
             </div>
 
             <div class="footer-nav__panel">
-                <p>Принимаем к оплате:</p>
+                <p class="f_h">Принимаем к оплате:</p>
                 <div class="footer-nav__panel-card d_flex f_jc_sb">
                     <img src="<?php echo get_template_directory_uri();?>/img/icons/icon-viza.svg" alt="">
                     <img src="<?php echo get_template_directory_uri();?>/img/icons/icon-sber.svg" alt="">
@@ -42,7 +42,7 @@
             <div class="phone_footer_blk">
                 <a href="tel:+74952876725">+7 495 287 67 25</a>
                 <p>Работаем без выходных с 10:00 до 21:00</p>
-                <button type="button" class="btn">Оставить заявку</button>
+                <button type="button" class="btn btn-fit">Оставить заявку</button>
                 <p><span class="footer-phone_text-agree">Нажимая на кнопку, вы даете согласие<br> на обработку персональных данных</span></p>
             </div>
         </div>
@@ -50,7 +50,9 @@
 </section>
 
 <section class="section-footer section-footer__bot">
-<p>ОБРАЩАЕМ ВАШЕ ВНИМАНИЕ НА ТО, ЧТО ДАННЫЙ САЙТ НОСИТ ИСКЛЮЧИТЕЛЬНО ИНФОРМАЦИОННЫЙ ХАРАКТЕР И НЕ ЯВЛЯЕТСЯ ПУБЛИЧНОЙ ОФЕРТОЙ, ОПРЕДЕЛЯЕМОЙ ПОЛОЖЕНИЯМИ СТАТЬИ 437 ГК РФ.</p>
-<p>ООО "СКАЙ" ОГРН 1147746036712 ИНН/КПП 7707824090/770701001</p>
-<p><a href="#">КАРТА САЙТА</a></p>
+<div class="_container">
+    <p>ОБРАЩАЕМ ВАШЕ ВНИМАНИЕ НА ТО, ЧТО ДАННЫЙ САЙТ НОСИТ ИСКЛЮЧИТЕЛЬНО ИНФОРМАЦИОННЫЙ ХАРАКТЕР И НЕ ЯВЛЯЕТСЯ ПУБЛИЧНОЙ ОФЕРТОЙ, ОПРЕДЕЛЯЕМОЙ ПОЛОЖЕНИЯМИ СТАТЬИ 437 ГК РФ.</p>
+    <p>ООО "СКАЙ" ОГРН 1147746036712 ИНН/КПП 7707824090/770701001</p>
+    <p><a href="#">КАРТА САЙТА</a></p>
+</div>
 </section>

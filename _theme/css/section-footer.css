@@ -69,3 +69,25 @@
     font-size: 10px;
     text-align: center;
 }
+
+.f_h {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+@media (max-width: 1024px) {  
+
+    .content-footer {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .phone_footer_blk {
+        text-align:  left;
+        margin-top:  20px;
+    }
+
+    .footer-nav__panel {
+        width: 310px;
+    }
+}
