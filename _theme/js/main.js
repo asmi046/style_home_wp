@@ -40,3 +40,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     })
 })
+
+// Мобильное мею
+
+document.addEventListener("DOMContentLoaded", () => { 
+    burger_element.addEventListener("click", function (e) { 
+        burger_element.classList.toggle("open")
+        mobile_menu.classList.toggle("open")
+    })
+})

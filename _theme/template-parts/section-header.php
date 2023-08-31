@@ -18,8 +18,19 @@
                 <a href="tel:<?php echo get_clear_phone(PHONE); ?>"><? echo PHONE; ?></a>
                 <p>Ежедневно <?php echo TIME_WORK; ?></p>
             </div>
+            <div class="mobile_action ">
+                <a href="tel:<?php echo get_clear_phone(PHONE); ?>" class="mobile_phone_btn"></a>
+                <div id="burger_element" class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                
+            </div>
         </div>
 </div>
+
+<?php get_template_part('template-parts/section-mobile-menu');?>
 
 <section id="section-header" class="section-header">
 

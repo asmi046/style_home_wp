@@ -27,7 +27,7 @@ function my_assets()
 	
 	wp_enqueue_style("section-header-css",  get_template_directory_uri() . "/css/section-header.css", array(), $style_version, 'all');
 	wp_enqueue_style("section-menu-css",  get_template_directory_uri() . "/css/section-menu.css", array(), $style_version, 'all');
-	wp_enqueue_style("section-banner-css",  get_template_directory_uri() . "/css/section-banner.css", array(), $style_version, 'all');
+	wp_enqueue_style("section-mobile-menu-css",  get_template_directory_uri() . "/css/section-mobile-menu.css", array(), $style_version, 'all');
 	wp_enqueue_style("section-vidi-remonta-i-ceni-css",  get_template_directory_uri() . "/css/section-vidi-remonta-i-ceni.css", array(), $style_version, 'all');
 	wp_enqueue_style("section-text-blk-css",  get_template_directory_uri() . "/css/section-text-blk.css", array(), $style_version, 'all');
 	wp_enqueue_style("section-preim-1-css",  get_template_directory_uri() . "/css/section-preim-1.css", array(), $style_version, 'all');
