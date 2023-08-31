@@ -14,6 +14,7 @@
     font-size: 20px;
     padding: 0 5px 5px 5px;
     margin: 0 20px;
+    cursor:pointer;
 }
 
 .price_pod_cl_blk .tap_body { 

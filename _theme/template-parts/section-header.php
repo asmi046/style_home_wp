@@ -1,5 +1,6 @@
-<section id="section-header" class="section-header">
-    <div class="top_menu">
+
+<div class="top_menu">
+        <div class="bg_blk"></div>
         <div class="_container">
             <a class="logo" href="#">
                 <img src="<?bloginfo("template_url")?>/img/logo.svg" alt="">
@@ -18,7 +19,10 @@
                 <p>Ежедневно <?php echo TIME_WORK; ?></p>
             </div>
         </div>
-    </div>
+</div>
+
+<section id="section-header" class="section-header">
+
     
     <div class="header_content">
         <div class="_container">

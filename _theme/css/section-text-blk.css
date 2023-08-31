@@ -89,6 +89,8 @@
     background-color: var(--color-main-gray);
     overflow: hidden;
     border-radius: var(--border-radius-big) 0 var(--border-radius-big) 0;
+    position: sticky;
+    top: 100px;
 }
 
 .text_cta_blk .image{

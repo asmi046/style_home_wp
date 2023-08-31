@@ -1,10 +1,11 @@
 .section-header {
-    min-height: 700px;
+    min-height: 600px;
     background-image: url(../img/main_bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 0;
     position: relative;
+    display: flex;
 }
 
 .logo {
@@ -17,15 +18,32 @@
 }
 
 .top_menu {
-    background-color: #5CA192A0;
+    
     color: white;
     display: flex;
     height: 100px;
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 10000;
+}
+
+.bg_blk {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background-color: #5CA192;
+    left: 0;
+    top: 0;
+    mix-blend-mode: multiply;
+    z-index: 1;
 }
 
 .top_menu ._container{ 
     display: flex;
      justify-content: space-between;
+     position: relative;
+     z-index: 10;
 }
 
 /* Телефон в шапке */
@@ -90,12 +108,11 @@
 
 .header_content {
     color: white;
-    
+    margin: auto;
 }
 
 .header_content ._container{
     display: flex;
-    margin-top: 50px;
     line-height: 1.2;
 }
 
@@ -149,6 +166,7 @@
 @media (max-width: 1024px) { 
     .header_content ._container {
         flex-direction: column;
+        margin-top: 20px;
     }
     .header_content ._container .form_blk {
         max-width: 100%;
