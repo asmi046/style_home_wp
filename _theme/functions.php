@@ -23,7 +23,8 @@ function my_assets()
 	wp_enqueue_style("null-css", get_template_directory_uri() . "/css/null.css", array(), $style_version, 'all'); 
 	wp_enqueue_style("fonts-css", get_template_directory_uri() . "/css/fonts.css", array(), $style_version, 'all'); 
 	wp_enqueue_style("main-css", get_template_directory_uri() . "/css/main.css", array(), $style_version, 'all'); 
-	
+	wp_enqueue_style("modal-win-css", get_template_directory_uri() . "/css/modal-win.css", array(), $style_version, 'all'); 
+	wp_enqueue_style("swiper-css", get_template_directory_uri() . "/css/swiper-bundle.min.css", array(), null, 'all'); 
 	
 	wp_enqueue_style("section-header-css",  get_template_directory_uri() . "/css/section-header.css", array(), $style_version, 'all');
 	wp_enqueue_style("section-menu-css",  get_template_directory_uri() . "/css/section-menu.css", array(), $style_version, 'all');
@@ -48,6 +49,11 @@ function my_assets()
 
 	// Подключение скриптов
 
+	wp_enqueue_script('swiper-js', get_template_directory_uri() . '/js/swiper-bundle.min.js', array(), $all_version, false);
+	wp_enqueue_script('axios-js', get_template_directory_uri() . '/js/axios.min.js', array(), $all_version, true);
+	wp_enqueue_script('vue-js', get_template_directory_uri() . '/js/vue.global.js', array(), $all_version, true);
+
+	wp_enqueue_script('upp_btn_js', get_template_directory_uri() . '/js/upp_btn.js', array(), $all_version, true);
 	wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array(), $scrypt_version, true);
 	wp_enqueue_script('tabs_js', get_template_directory_uri() . '/js/tabs.js', array(), $scrypt_version, true);
 	wp_enqueue_script('mobile_menu_js', get_template_directory_uri() . '/js/mobile-menu.js', array(), $scrypt_version, true);
@@ -81,6 +87,85 @@ function aj_fnc()
 	}
 
 	if (check_ajax_referer('NEHERTUTLAZIT', 'nonce', false)) {
+	} else {
+		wp_die('НО-НО-НО!', '', 403);
+	}
+}
+
+
+// Отправка в телеграм
+function message_to_telegram($text)
+{
+	//!!! заполнить
+	$t_token = "";
+	$arr_chat = "";
+
+
+	$output = false;
+
+	if($arr_chat) {
+
+		$arr_chat = explode(",",$arr_chat);
+	    $ch = curl_init();
+		
+		for ($i = 0; $i<count($arr_chat); $i++) {
+		    curl_setopt_array(
+		        $ch,
+		        array(
+		            CURLOPT_URL => 'https://api.telegram.org/bot' . $t_token . '/sendMessage',
+		            CURLOPT_POST => TRUE,
+		            CURLOPT_RETURNTRANSFER => TRUE,
+		            CURLOPT_TIMEOUT => 10,
+		            CURLOPT_POSTFIELDS => array(
+		                'chat_id' => trim($arr_chat[$i]),
+		                'text' => $text,
+						'parse_mode' => "HTML",
+		            ),
+		        )
+		    );
+
+		    $output = curl_exec($ch);
+		}
+	}
+
+	return $output;
+	
+}
+
+
+// Универсальный отправщик
+add_action('wp_ajax_newsendr', 'newsendr');
+add_action('wp_ajax_nopriv_newsendr', 'newsendr');
+
+function newsendr()
+{
+	if (empty($_REQUEST['nonce'])) {
+		wp_die('0');
+	}
+
+	if (check_ajax_referer('NEHERTUTLAZIT', 'nonce', false)) {
+       
+		
+	
+		$subj = "Сообщение с сайта";
+		$content = "<h2>Новое сообщение с сайта</h2>";
+		$content_tg = "<b>Новое сообщение с сайта</b>\n\r";
+
+		foreach ($_REQUEST as $key => $value)
+		{
+				$content .= $key.": <strong>".$value."</strong><br/>";
+				$content_tg .= $key.": ".$value."\n\r";	
+		}
+
+		$rez = message_to_telegram($content_tg);
+
+		if ($rez)
+		{
+			wp_die(true);
+		} else {
+			wp_die("NO ОК", '', 403 );
+		}
+	
 	} else {
 		wp_die('НО-НО-НО!', '', 403);
 	}

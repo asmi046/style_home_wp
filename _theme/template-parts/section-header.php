@@ -10,8 +10,8 @@
 
 
             <div class="head_button_lnk">
-                <a href="#" class="h_calc_btn">Расчет<br/>стоимости</a>
-                <a href="#" class="h_phone_btn">Обратный<br/>звонок</a>
+                <a href="#pricecalcBlk" class="h_calc_btn scroll-to">Расчет<br/>стоимости</a>
+                <a href="#recollMsg" class="h_phone_btn">Обратный<br/>звонок</a>
             </div>
 
             <div class="phone_head_blk">
@@ -35,7 +35,7 @@
 <section id="section-header" class="section-header">
 
     
-    <div class="header_content">
+    <div  id="pricecalcBlk" class="header_content">
         <div class="_container">
             <div class="text">
                 <h1>ДИЗАЙН ИНТЕРЬЕРА И СОВРЕМЕННЫЙ РЕМОНТ ПО ФИКСИРОВАННОЙ ЦЕНЕ</h1>

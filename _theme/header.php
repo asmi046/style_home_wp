@@ -16,5 +16,5 @@
     <?php wp_head();?>
 </head>
     <body>
-    
+    <div class="up_btn up_btn_hide" id="up_btn"></div>
 		

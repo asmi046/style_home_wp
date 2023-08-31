@@ -14,3 +14,9 @@
     display: flex;
 }
 
+@media (max-width: 680px) {
+    .mobile_menu  {
+        top: 70px;
+        height: calc(100% - 70px);
+    }
+}
