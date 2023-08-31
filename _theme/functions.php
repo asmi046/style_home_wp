@@ -112,3 +112,23 @@ function newsendr()
 		wp_die('НО-НО-НО!', '', 403);
 	}
 }
+
+// Отправщик для калькулятора
+add_action('wp_ajax_calc_sendr', 'calc_sendr');
+add_action('wp_ajax_nopriv_calc_sendr', 'calc_sendr');
+
+function calc_sendr()
+{
+	if (empty($_REQUEST['nonce'])) {
+		wp_die('0');
+	}
+
+	if (check_ajax_referer('NEHERTUTLAZIT', 'nonce', false)) {
+       
+		
+		wp_die(true);
+		
+	} else {
+		wp_die('НО-НО-НО!', '', 403);
+	}
+}

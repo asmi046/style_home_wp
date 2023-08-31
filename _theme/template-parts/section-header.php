@@ -43,8 +43,8 @@
             </div>
 
             <div id="calc_form_blk" class="form_blk">
-                <h2>Расчитайте стоимость ремонта и получите скидку</h2>
-                <calc-form></calc-form>
+                
+                <calc-form redirect="/thencs"></calc-form>
             </div>
 
         </div>
