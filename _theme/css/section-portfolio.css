@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+.portfolios_list .portfolio_elem:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
 .portfolio_elem {
     width: 100%;
     display: flex;

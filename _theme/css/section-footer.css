@@ -48,6 +48,7 @@
 
 .phone_footer_blk .btn {
     cursor: pointer;
+    margin-left: auto;
 }
 
 .footer-phone_text-agree {

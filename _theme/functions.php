@@ -49,11 +49,11 @@ function my_assets()
 
 	// Подключение скриптов
 
-	wp_enqueue_script('swiper-js', get_template_directory_uri() . '/js/swiper-bundle.min.js', array(), $all_version, false);
-	wp_enqueue_script('axios-js', get_template_directory_uri() . '/js/axios.min.js', array(), $all_version, true);
-	wp_enqueue_script('vue-js', get_template_directory_uri() . '/js/vue.global.js', array(), $all_version, true);
+	wp_enqueue_script('fslightbox-js', get_template_directory_uri() . '/js/fslightbox.js', array(), $scrypt_version, true);
+	wp_enqueue_script('swiper-js', get_template_directory_uri() . '/js/swiper-bundle.min.js', array(), $scrypt_version, false);
+	wp_enqueue_script('axios-js', get_template_directory_uri() . '/js/axios.min.js', array(), $scrypt_version, true);
+	wp_enqueue_script('vue-js', get_template_directory_uri() . '/js/vue.global.js', array(), $scrypt_version, true);
 
-	wp_enqueue_script('upp_btn_js', get_template_directory_uri() . '/js/upp_btn.js', array(), $all_version, true);
 	wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array(), $scrypt_version, true);
 	wp_enqueue_script('tabs_js', get_template_directory_uri() . '/js/tabs.js', array(), $scrypt_version, true);
 	wp_enqueue_script('mobile_menu_js', get_template_directory_uri() . '/js/mobile-menu.js', array(), $scrypt_version, true);

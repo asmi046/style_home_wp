@@ -5,9 +5,9 @@
                 $i = 1;
                 foreach ($args['photo'] as $elem) {
             ?>
-                <div class="swiper-slide">
+                <a data-fslightbox="gallery" href="<? echo get_template_directory_uri()."/img/portfolio/".$args['folder']."/".$elem?>"  class="swiper-slide">
                     <img src="<? echo get_template_directory_uri()."/img/portfolio/".$args['folder']."/".$elem?>" alt="Выполненная работа: <? echo $args['name']?> фото <? echo $i?>" />
-                </div>
+                </a>
             <?    
                 $i++;
                 }

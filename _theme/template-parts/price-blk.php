@@ -9,7 +9,7 @@
         <?php 
             foreach ($args['list'] as $elem) {
         ?>
-            <li><? echo $elem; ?></li>
+            <li><a href=""> <? echo $elem; ?></a></li>
         <?        
             }
         ?>
@@ -20,5 +20,5 @@
     <div class="price_in_blk">
         <?php echo $args['price']?>
     </div>
-    <a href="#" class="btn btn-fit">Рассчитать стоимость</a>
+    <a href="#pricecalcBlk" class="btn btn-fit">Рассчитать стоимость</a>
 </div>

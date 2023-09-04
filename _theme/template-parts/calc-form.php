@@ -38,7 +38,7 @@
         </div>
 
         <button @click.prevent="show_form = false" class="btn" type="submit">Рассчитать стоимость</button>
-        <p class="snoska">Нажимая на кнопку, вы даете согласие на обработку персональных данных</p>
+        <p class="snoska">Используя данную форму, вы даете согласие с <a href="<?php echo get_the_permalink(3); ?>">политикой обработки персональных данных</a></p>
     </form>
     <div v-else class="calc_result">
         <h2>Приблизительная стоимость ремонта Вашего помещения:</h2>
@@ -59,6 +59,6 @@
             <button class="btn btn-fit btn-send" @click.prevent="sendMsg()">Отправить</button> <div v-show="showLoader" class="loader"></div>
         </div>
 
-        <p class="snoska">Нажимая на кнопку, вы даете согласие на обработку персональных данных</p>
+        <p class="snoska">Используя данную форму, вы даете согласие с <a href="<?php echo get_the_permalink(3); ?>">политикой обработки персональных данных</a></p>
     </div>
 </template>

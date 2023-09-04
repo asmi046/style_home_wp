@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     text-align: left;
+    line-height: 1.5;
 }
 
 .page_text_blk .text_blk{
@@ -21,6 +22,11 @@
     border-radius: var(--border-radius-s-mini);
     padding: 10px 30px 10px 80px;
     position: relative;
+}
+
+.text_blk p{ 
+margin-top: .3em;
+margin-bottom: 1em;
 }
 
 .text_blk q:after,
@@ -65,7 +71,7 @@
     width: 6px;
     height: 6px;
     left:0;
-    top:5px;
+    top:calc(50% - 3px);
     background-color: var(--color-main-green);
 }
 
@@ -76,7 +82,7 @@
     height: 14px;
     border-radius: 50%;
     left:0;
-    top:0;
+    top:calc(50% - 7px);
     text-align: center;
     font-size: 8px;
     line-height: 14px;

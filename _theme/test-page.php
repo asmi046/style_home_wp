@@ -1,6 +1,12 @@
-<?php get_header(); ?>
 
-    <?php get_template_part('template-parts/section-main-banner');?>
+<?php 
+/*
+Template Name: Пример шаблона
+Template Post Type: page, post
+*/
+
+get_header(); ?>
+
     <?php get_template_part('template-parts/section-vidi-remonta-i-ceni');?>
     <?php get_template_part('template-parts/section-text-blk');?>
     <?php get_template_part('template-parts/section-preim-1');?>

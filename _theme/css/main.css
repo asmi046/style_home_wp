@@ -11,7 +11,7 @@
 body {
     font-family: 'TT Norms';
     line-height: 1;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 section {
@@ -60,6 +60,7 @@ a {
     display: inline-block;
     border: none;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .btn-fit {
@@ -99,10 +100,19 @@ a {
 }
 
 .ul_in_blk li {
-    font-size: 22px;
+    font-size: 18px;
     position: relative;
     padding-left: 20px;
     margin-bottom: 5px;
+}
+
+.ul_in_blk a { 
+    text-decoration: none;
+    color: black;
+}
+
+.ul_in_blk a:hover {
+    color: var(--color-main-green);
 }
 
 
@@ -235,6 +245,15 @@ label span {
 }
 
 .up_btn_hide{ display: none;}
+
+.page_h1 {
+    font-size: 42px;
+    margin-bottom: .7em;
+}
+
+#breadcrumbs {
+    margin-bottom: 40px;
+}
 
 @media (max-width: 1024px) {
     .up_btn {
