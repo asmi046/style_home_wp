@@ -40,6 +40,12 @@
     position: absolute;
     right: 0;
     bottom:0;
+    
+}
+
+.vr-element:hover .text span::before{
+    transform: rotate(15deg);
+    transition: transform 0.4s ease-in-out;
 }
 
 .vr-element .text span{ 

@@ -27,8 +27,8 @@
                 </div>
 
                 <div class="subcontacts_blk">
-                    <a href="#">StilniyDom@sd.ru</a>
-                    <p>г. Москва, ул. Бауманская, д. 15</p>
+                    <a class="sp_contact email_lnk" href="mailto:<?php echo EMAIL; ?>"><?php echo EMAIL; ?></a>
+                    <p class="sp_contact adress_lnk"><?php echo ADRESS; ?></p>
                 </div>
             </div>
         </div>

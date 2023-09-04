@@ -112,6 +112,38 @@
     margin-right: 5px;
 }
 
+
+.sp_contact {
+    position: relative;
+    padding-left: 30px;
+}
+
+.sp_contact:before {
+    content: "";
+    width:20px;
+    height: 20px;
+    left:0;
+    top:calc(50% - 10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+
+
+.email_lnk {
+    text-transform: none!important
+}
+
+.email_lnk:before {
+    background-image: url(../img/icons/email.svg); 
+}
+
+.adress_lnk::before {
+    background-image: url(../img/icons/map-pin.svg);
+}
+    
+
 /* Меню end */
 
 @media (max-width: 1024px) { 

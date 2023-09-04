@@ -18,7 +18,6 @@
 }
 
 .top_menu {
-    
     color: white;
     display: flex;
     height: 100px;
@@ -234,6 +233,10 @@
 
 .btn-send {
     margin-left: 10px;
+}
+
+.control_wrap {
+    margin-top: 20px;
 }
 
 /* Контент баннера end */
