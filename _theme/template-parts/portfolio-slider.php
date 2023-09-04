@@ -33,6 +33,9 @@
                 }
             ?>
         </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </div>
 </div>
 
@@ -42,6 +45,11 @@
       slidesPerView: 4,
       freeMode: true,
       watchSlidesProgress: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    
     });
     var swiper<? echo $args['index']?> = new Swiper(".portfolio_slider_<? echo $args['index']?>", {
       navigation: {

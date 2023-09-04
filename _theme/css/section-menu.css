@@ -70,6 +70,15 @@
     text-align: left;
 }
 
+.menu_sub_puncts .subaction_blk img{
+    max-height: 300px;
+    -webkit-box-shadow: -5px -5px 2px 1px rgba(92, 161, 146, 0.99);
+    -moz-box-shadow: -5px -5px 2px 1px rgba(92, 161, 146, 0.99);
+    box-shadow: -5px -5px 2px 1px rgba(92, 161, 146, 0.99);
+}
+
+
+/* 
 .menu_sub_puncts .subaction_blk span {
     font-size: 34px;
     font-weight: bold;
@@ -82,7 +91,7 @@
 
 .menu_sub_puncts .subaction_blk .btn {
     width: 100%;
-}
+} */
 
 
 .menu_sub_puncts .subcontacts_blk {
@@ -91,7 +100,7 @@
 
 .menu_sub_puncts .subpuncts_blk{
     flex: 1;
-    padding: 0 10%;
+    padding: 0 5%;
 }
 
 .menu_sub_puncts .subpuncts_blk ul{
@@ -105,11 +114,21 @@
     width:30%;
     margin-bottom: 20px;
     font-size: 16px;
+    padding-left: 20px;
+}
+
+.menu_sub_puncts .subpuncts_blk ul li a:hover{
+    color: var(--color-main-green);
 }
 
 .menu_sub_puncts .subpuncts_blk ul li::before { 
-    content: "-";
-    margin-right: 5px;
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 0;
+    top: calc(50% - 3px);
+    background-color: var(--color-main-green);
 }
 
 

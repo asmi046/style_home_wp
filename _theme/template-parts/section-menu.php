@@ -11,9 +11,7 @@
         <div data-name="Дизайн" class="menu_sub_puncts" id="menu_sub_puncts">
             <div class="_container">
                 <div class="subaction_blk">
-                    <span>О компании</span>
-                    <p>«Стильный-дом»</p>
-                    <a href="#" class="btn">Подробнее</a>
+                    <img class="standart_roundet" src="<?php echo get_template_directory_uri()?>/img/menu_design_foto.jpg" alt="">
                 </div>
 
                 <div class="subpuncts_blk">
