@@ -1,7 +1,7 @@
 <?php get_template_part('template-parts/section-mobile-menu');?>
 
 <section id="section-header" class="section-header">
-
+    <div class="shadow"></div>
     
     <div  id="pricecalcBlk" class="header_content">
         <div class="_container">
