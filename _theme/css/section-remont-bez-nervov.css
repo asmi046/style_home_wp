@@ -74,6 +74,7 @@
 
 .remont-bez-nervov-blk .rbn_punkt .text_wrp p{ 
     margin-top: 40px;
+    line-height: 1.3;
 }
 
 @media (max-width: 768px) {  

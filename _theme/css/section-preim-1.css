@@ -20,7 +20,7 @@
 
 
 .preim_1_blk .left h2{ 
-    margin-top: auto;
+    margin-top: 170px;
 }
 
 
@@ -47,13 +47,13 @@
 
 .preim_list {
     text-align: left;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .preim_list li::before{
     content:"";
-    width: 28px;
-    height: 28px;
+    width: 20px;
+    height: 20px;
     background-image: url(../img/icons/list-mark.svg);
     background-position: center;
     background-repeat: no-repeat;
