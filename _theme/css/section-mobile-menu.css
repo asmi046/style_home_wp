@@ -10,8 +10,13 @@
     transition: transform 0.4s ease-in-out;
 }
 
+.mobile_menu .subcontacts_blk{ 
+    margin: 40px 20px;
+}
+
 .mobile_menu.open {
     display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 680px) {

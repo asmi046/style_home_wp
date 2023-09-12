@@ -168,6 +168,16 @@ margin-bottom: 1em;
     }
 }
 
+@media (max-width: 680px) {  
+    .text_blk h2 {
+        font-size: 22px;
+    }
+    
+    .text_blk h3 {
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 512px) {  
     .page_text_blk .cta {
         min-width: 100%;

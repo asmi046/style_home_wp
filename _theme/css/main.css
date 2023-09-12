@@ -61,6 +61,7 @@ a {
     border: none;
     text-decoration: none;
     cursor: pointer;
+    font-size: 18px!important;
 }
 
 .btn-fit {

@@ -26,6 +26,7 @@ function my_assets()
 	wp_enqueue_style("modal-win-css", get_template_directory_uri() . "/css/modal-win.css", array(), $style_version, 'all'); 
 	wp_enqueue_style("swiper-css", get_template_directory_uri() . "/css/swiper-bundle.min.css", array(), null, 'all'); 
 	
+	wp_enqueue_style("mobile_catalog_menu-css",  get_template_directory_uri() . "/css/mobile_catalog_menu.css", array(), $style_version, 'all');
 	wp_enqueue_style("section-header-css",  get_template_directory_uri() . "/css/section-header.css", array(), $style_version, 'all');
 	wp_enqueue_style("section-menu-css",  get_template_directory_uri() . "/css/section-menu.css", array(), $style_version, 'all');
 	wp_enqueue_style("section-mobile-menu-css",  get_template_directory_uri() . "/css/section-mobile-menu.css", array(), $style_version, 'all');
@@ -49,6 +50,7 @@ function my_assets()
 
 	// Подключение скриптов
 
+	wp_enqueue_script('imask-js', get_template_directory_uri() . '/js/imask.js', array(), $scrypt_version, true);
 	wp_enqueue_script('fslightbox-js', get_template_directory_uri() . '/js/fslightbox.js', array(), $scrypt_version, true);
 	wp_enqueue_script('swiper-js', get_template_directory_uri() . '/js/swiper-bundle.min.js', array(), $scrypt_version, false);
 	wp_enqueue_script('axios-js', get_template_directory_uri() . '/js/axios.min.js', array(), $scrypt_version, true);

@@ -91,4 +91,9 @@
     .footer-nav__panel {
         width: 310px;
     }
+
+    .phone_footer_blk .btn {
+        margin-left: 0;
+        margin-right: auto;
+    }
 }

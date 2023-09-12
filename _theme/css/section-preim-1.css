@@ -107,4 +107,8 @@
     .preim_1_blk {
         padding: 30px 20px;
     }
+
+    .preim_1_blk .left h2 {
+        margin-top: 0;
+    }
 }

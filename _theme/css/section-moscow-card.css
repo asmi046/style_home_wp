@@ -48,6 +48,10 @@
         margin: auto;
     }
 
+    .moscow_map_blk h2{
+        font-size: 28px;
+    }
+    
 }
 
 @media (max-width: 512px) { 

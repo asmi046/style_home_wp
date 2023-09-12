@@ -42,7 +42,7 @@
             <div class="phone_footer_blk">
                 <a href="tel:+74952876725">+7 495 287 67 25</a>
                 <p>Работаем без выходных с 10:00 до 21:00</p>
-                <button type="button" class="btn btn-fit">Оставить заявку</button>
+                <a href="#recollMsg" class="btn btn-fit">Оставить заявку</a>
                 <p><span class="footer-phone_text-agree">Нажимая на кнопку, вы даете согласие<br> на обработку персональных данных</span></p>
             </div>
         </div>

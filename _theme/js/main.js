@@ -67,3 +67,13 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     }
 })
+
+document.addEventListener("DOMContentLoaded", () => { 
+
+    let allPhoneInput = document.querySelectorAll("input[type=tel]");
+    
+    console.log(allPhoneInput)
+
+    for (let i =0; i<allPhoneInput.length; i++)
+        IMask(allPhoneInput[i], {mask: '+0 (000) 000-00-00'})
+})
