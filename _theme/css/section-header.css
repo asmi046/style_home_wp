@@ -186,6 +186,7 @@
     color: white;
     margin: auto;
     z-index: 1000;
+    width: 100%;
 }
 
 .header_content ._container{

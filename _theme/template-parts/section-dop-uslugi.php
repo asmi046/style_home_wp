@@ -2,7 +2,7 @@
     <div class="_container">
         <div class="dop_uslugi_blk standart_roundet">
             <div class="du_head">
-                <h2>Дополнительные услуги</h2>
+                <h2>Полный спектр услуг для вашего удобства</h2>
             </div>
             <div class="du_body">
                 <p data-duname="Установим кондиционеры">Установим <br/>кондиционеры</p>

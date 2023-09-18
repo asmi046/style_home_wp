@@ -1,6 +1,6 @@
 <section id="section-ceni-pod-cluth" class="section-ceni-pod-cluth">
     <div class="_container">
-        <h2>Цены на ремонт под ключ</h2>
+        <h2>Цены на дизайн и ремонт под ключ</h2>
         <div class="tap_blk price_pod_cl_blk">
             <div class="taphead">
                 <div data-boxid="rem_price1" data-boxgroup="rem_price" class="uni_selector th_elem select" data-index="1">Новостройка</div>

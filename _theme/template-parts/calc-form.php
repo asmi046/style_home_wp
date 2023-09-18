@@ -13,7 +13,7 @@
             </label>
             
             <label for="sel_type">
-                <span>Вид ремонта:</span>
+                <span>Вид ремонта</span>
                 <div class="select_wrapper">
                     <select v-model="rem_value" name="sel_type" id="sel_type">
                         <option v-for="(value, name, index) in rem_type" :key="'rem_type_'+index" :value="value[1]">{{value[0]}}</option>
@@ -22,7 +22,7 @@
             </label>
             
             <label for="sel_project">
-                <span>Дизайн проект?</span>
+                <span>Дизайн проект</span>
                 <div class="select_wrapper">
                     <select v-model="diz_value" name="sel_project" id="sel_project">
                     <option v-for="(value, name, index) in diz_proj" :key="'diz_proj_'+index" :value="value[1]">{{value[0]}}</option>
@@ -31,7 +31,7 @@
             </label>
 
             <label for="sel_plce">
-                <span>Площадь м²:</span>
+                <span>Площадь (м²)</span>
                 <input v-model="pl" id="sel_plce" type="text" name="ploshad" placeholder="Площадь">
             </label>
 
@@ -41,10 +41,10 @@
         <p class="snoska">Используя данную форму, вы даете согласие с <a href="<?php echo get_the_permalink(3); ?>">политикой обработки персональных данных</a></p>
     </form>
     <div v-else class="calc_result">
-        <h2>Приблизительная стоимость ремонта Вашего помещения:</h2>
+        <h2>Приблизительная стоимость ремонта:</h2>
         <span class="calc_price">{{new Intl.NumberFormat("ru-RU").format(price)}} руб.</span>
 
-        <p>Оставьте свои контакты и мы свяжемся с Вами и уточним детали</p>
+        <p>Оставьте свои контакты, мы свяжемся с вами и обсудим ваш проект!</p>
         
         <label for="calc_tel_input">
             <input id="calc_tel_input"  type="tel" name="tel" v-phone v-model="phone" placeholder="Телефон*">

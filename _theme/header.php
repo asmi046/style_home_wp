@@ -14,6 +14,9 @@
     <title><?php wp_title(); ?></title>
 
     <?php wp_head();?>
+	
+	<script type="text/javascript" async src="https://app.uiscom.ru/static/cs.min.js?k=4Udhb3Zrne6gc_P9dBEgBhPFzXXoX45A"></script>
+	
 </head>
     <body>
 

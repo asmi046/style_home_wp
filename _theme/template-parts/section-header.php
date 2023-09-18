@@ -2,7 +2,7 @@
         <div class="bg_blk"></div>
         <div class="_container">
             <a class="logo" href="<?php bloginfo('url')?>">
-                <img src="<?bloginfo("template_url")?>/img/logo.svg" alt="">
+                <img src="<?bloginfo("template_url")?>/img/logo.svg" alt="Логотип компании «Стильный дом»">
             </a>
 
             <?php get_template_part('template-parts/section-menu');?>
@@ -15,7 +15,7 @@
 
             <div class="phone_head_blk">
                 <a href="tel:<?php echo get_clear_phone(PHONE); ?>"><? echo PHONE; ?></a>
-                <p>Ежедневно <?php echo TIME_WORK; ?></p>
+                <p><?php echo TIME_WORK; ?></p>
             </div>
             <div class="mobile_action ">
                 <a href="tel:<?php echo get_clear_phone(PHONE); ?>" class="mobile_phone_btn"></a>

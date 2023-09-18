@@ -1,6 +1,6 @@
 <section id="section-vidi-remonta-i-ceni" class="section-vidi-remonta-i-ceni">
     <div class="_container">
-        <h2>Виды ремонта и цены</h2>
+        <h2>Любой вид ремонта для вашего комфорта</h2>
         <div class="vidi-remonta-i-ceni-wrapper">
             
             <a href="#" id="vr-kvrem"  class="vr-kvrem vr-element">
@@ -23,7 +23,7 @@
             
             <a href="#" id="vr-kosmrem"  class="vr-kosmrem vr-element">
                 <div class="text">
-                    <span>Космет <br/>ремонт</span>
+                    <span>Косметический <br/>ремонт</span>
                 </div>
             </a>
             

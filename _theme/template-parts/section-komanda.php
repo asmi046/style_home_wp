@@ -1,6 +1,6 @@
 <section id="section-komanda" class="section-komanda">
     <div class="_container">
-        <h2>Наша команда</h2>
+        <h2>Все дело в людях</h2>
         <div class="comand_blk">
             <?php get_template_part('template-parts/command', "person", [
                 "name" => "Наталья Викторовна",

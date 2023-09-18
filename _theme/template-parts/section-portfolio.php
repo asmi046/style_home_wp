@@ -1,6 +1,6 @@
 <section id="section-portfolio" class="section-portfolio">
     <div class="_container">
-        <h2>Примеры наших работ</h2>
+        <h2>Посмотрите, что мы сделали!</h2>
         <div class="portfolios_list">
             <div class="portfolio_elem">
                 <?php get_template_part('template-parts/portfolio','slider', [

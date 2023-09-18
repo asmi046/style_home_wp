@@ -1,6 +1,6 @@
 <section id="section-uslugi" class="section-uslugi">
     <div class="_container">
-        <h2>Отдельные услуги</h2>
+        <h2>Справедливая стоимость услуг</h2>
 
         <div class="otd_usl_blk">
         

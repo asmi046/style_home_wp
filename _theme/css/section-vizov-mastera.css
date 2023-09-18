@@ -63,6 +63,7 @@
 
 .green_pl_srohno .phone_time{ 
     display: flex;
+    flex-direction: column;
 }
 
 .green_pl_srohno .phone_time a{
@@ -75,7 +76,7 @@
 .green_pl_srohno .phone_time p{
     margin-top: auto;
     margin-bottom: 0;
-    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .vm_form_blk .right,

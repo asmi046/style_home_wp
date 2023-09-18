@@ -1,6 +1,6 @@
 <section id="section-etapi-rabot" class="section-etapi-rabot">
     <div class="_container">
-        <h2>Этапы работ</h2>
+        <h2>Несколько шагов до результата</h2>
         <div class="etapi_wrapper">
             <div class="spl_line"></div>
             <div class="etapi_line">

@@ -1,6 +1,6 @@
 <section id="section-preim-1" class="section-preim-1">
     <div class="_container">
-        <h2>Преимущества №1</h2>
+        <h2>Качественное исполнение и функциональность</h2>
         <div class="preim_1_blk">
             <div class="left">
                 <div class="img_preim_1"></div>

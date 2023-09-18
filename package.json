@@ -12,7 +12,7 @@
     "send_func": "scp -C _theme/functions.php u1212616@31.31.198.121:www/dom-style.ru/wp-content/themes/style_home/",
     "send_index": "scp -C _theme/index.php u1212616@31.31.198.121:www/dom-style.ru/wp-content/themes/style_home/",
     "send_footer": "scp -C footer.php u1212616@31.31.198.121:www/dom-style.ru/wp-content/themes/style_home/",
-    "send_one": "scp -C _theme/test-page.php u1212616@31.31.198.121:www/dom-style.ru/wp-content/themes/style_home/",
+    "send_one": "scp -C _theme/paage-home.php u1212616@31.31.198.121:www/dom-style.ru/wp-content/themes/style_home/",
     "send_one1": "scp -C header-bus.php u1212616@31.31.198.121:www/dom-style.ru/wp-content/themes/style_home/",
     "send_one2": "scp -C page-ta-autor.php u1212616@31.31.198.121:www/dom-style.ru/wp-content/themes/style_home/",
     "send_arct": "scp -C arcticWindow.php u1212616@31.31.198.121:www/dom-style.ru/wp-content/themes/style_home/",
