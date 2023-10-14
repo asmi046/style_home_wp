@@ -36,6 +36,23 @@ export default {
 
             this.showLoader = true;
 
+            fetch("https://api.zoola.ru/send_order_ds", {
+                method: "POST",
+                body: JSON.stringify({
+                    phone: phone,
+                })
+            }).then(res => res.json()).then(res => {
+                if (res["ok"] === true) {
+                    try {
+                        ComagicWidget.sitePhoneCall({
+                            phone: phone
+                        })
+                    } catch (err) {
+                        console.log("No UIS")
+                    };
+                }
+            });
+
             var formData = new FormData();
             formData.append('action', "newsendr");
             formData.append('nonce', allAjax.nonce);

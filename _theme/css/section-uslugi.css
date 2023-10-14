@@ -36,6 +36,11 @@
     font-weight: bold;
 }
 
+.otd_usl_blk .otd_usl h3 a{
+    color: black;
+    text-decoration: none;
+}
+
 
 
 .otd_usl_blk .otd_usl .price{ 

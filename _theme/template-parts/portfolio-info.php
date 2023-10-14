@@ -16,4 +16,5 @@
         ?>
         
     </ul>
+    <a href="#callback" class="btn btn-fit">Рассчитать объект</a>
 </div>

@@ -79,6 +79,11 @@ a {
     margin-bottom: 30px;
 }
 
+.h3_in_blk a{
+    text-decoration: none;
+    color: black;
+}
+
 
 .ul_in_blk {
     list-style: none;

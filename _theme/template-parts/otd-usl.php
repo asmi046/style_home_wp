@@ -1,6 +1,10 @@
 <div class="otd_usl">
     <div class="photo" data-uslname="<?php echo $args['name']?>"></div>
-    <h3 class="h3_in_blk h3_line"><?php echo $args['name']?></h3>
+    <h3 class="h3_in_blk h3_line">
+        <a href="<?php echo $args['name_lnk']?>">
+            <?php echo $args['name']?>
+        </a>
+    </h3>
     <ul class="ul_in_blk">
         <? foreach ($args['list'] as $key => $value) {?>
             <li><a href="<?echo $value?>"><?echo $key?></a></li>

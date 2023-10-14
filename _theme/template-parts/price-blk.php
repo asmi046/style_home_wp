@@ -1,5 +1,9 @@
 <div class="price_blk standart_roundet">
-    <h3 class="h3_in_blk"><?php echo $args['name']?></h3>
+    <h3 class="h3_in_blk">
+        <a href="<?php echo $args['name']?>">
+            <?php echo $args['name']?>
+        </a>
+    </h3>
     
     <span class="info_blk">
         <?php echo $args['info']?>
