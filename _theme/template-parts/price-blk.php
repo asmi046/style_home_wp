@@ -20,5 +20,5 @@
     <div class="price_in_blk">
         <?php echo $args['price']?>
     </div>
-    <a href="#pricecalcBlk" class="btn btn-fit">Рассчитать стоимость</a>
+    <a href="#callback" class="btn btn-fit">Оставить заявку</a>
 </div>

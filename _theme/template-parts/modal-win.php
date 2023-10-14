@@ -1,4 +1,3 @@
-
 <template id="modal_win">
     <div v-show="showModal" @click.self="closeWin()" class="popup_wrapper">
         <div class="popup_c">
@@ -25,5 +24,5 @@
 </template>
 
 <div id="win_app">
-    <modal-win rout="/send_consult" redirect="/thencs" hesh="recollMsg" title="Заказать обратный звонок" subtitle="Наши специалисты свяжутся с Вами в течении 15 минут" ></modal-win>
+    <modal-win rout="/send_consult" redirect="/thencs" hesh="callback" title="Заказать звонок" subtitle="Мы свяжемся с вами в течение 5 минут!" ></modal-win>
 </div>

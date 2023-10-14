@@ -3,7 +3,7 @@
 <section id="section-header" class="section-header">
     <div class="shadow"></div>
     
-    <div  id="pricecalcBlk" class="header_content">
+    <div  id="calculator" class="header_content">
         <div class="_container">
             <div class="text">
                 <? if (is_home()) { ?>
@@ -20,7 +20,7 @@
 
             <div id="calc_form_blk" class="form_blk">
                 
-                <calc-form redirect="/thencs"></calc-form>
+                <calc-form redirect="/thanks"></calc-form>
             </div>
 
         </div>

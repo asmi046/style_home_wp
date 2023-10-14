@@ -4,31 +4,32 @@ export default {
     props: ['redirect'],
 
     setup(props) {
-        const base_price = 20000
+        const base_price = 12000
 
-        let where_value = Vue.ref(1.4)
+        let where_value = Vue.ref(1)
         let show_form = Vue.ref(true)
         let phone = Vue.ref("")
         const where = [
-            ["Новостройка", 1.4],
-            ["Частный дом", 1.2],
-            ["Б/У фонд", 1.2]
+            ["Новостройка", 1],
+			["Вторичка", 1.1],
+            ["Коттедж", 1.2],
+			["Офис", 0.8]
         ]
 
         let rem_value = Vue.ref(1)
         const rem_type = [
-            ["Капитальный", 1],
-            ["Косметический", 1.2],
-            ["Чистовой", 1.5]
+			["Черновой", 0.6],
+			["Косметический", 1],
+			["Капитальный", 1.4],
         ]
 
         let diz_value = Vue.ref(1)
         const diz_proj = [
-            ["Да", 1],
-            ["Нет", 1.5],
+            ["Да", 1.15],
+            ["Нет", 1],
         ]
 
-        let pl = Vue.ref(75)
+        let pl = Vue.ref(50)
 
         let errorList = Vue.ref([]);
 

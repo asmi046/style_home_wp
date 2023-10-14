@@ -60,7 +60,7 @@ margin-bottom: 1em;
 .text_blk ul li{
  list-style: none;   
  position: relative;
- padding-left:  20px;
+ padding-left:  30px;
  margin: 3px 0;
  counter-increment: my-awesome-counter;
 }
@@ -76,17 +76,17 @@ margin-bottom: 1em;
     background-color: var(--color-main-green);
 }
 
-.text_blk ol li:before{
+.text_blk ol li:before {
     content: counter(my-awesome-counter);
     position: absolute;
-    width: 14px;
-    height: 14px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
-    left:0;
-    top:calc(50% - 7px);
+    left: 0;
+    top: 6px;
     text-align: center;
-    font-size: 8px;
-    line-height: 14px;
+    font-size: 12px;
+    line-height: 16px;
     color: white;
     background-color: var(--color-main-green);
 }
@@ -121,7 +121,6 @@ margin-bottom: 1em;
 .text_cta_blk .text span{
     font-size: 28px;
     font-weight: bold;
-    margin-bottom: 20px;
     line-height: 1;
 }
 

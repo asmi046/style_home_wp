@@ -7,10 +7,9 @@
 
             <?php get_template_part('template-parts/section-menu');?>
 
-
             <div class="head_button_lnk">
-                <a href="#pricecalcBlk" class="h_calc_btn scroll-to">Расчет<br/>стоимости</a>
-                <a href="#recollMsg" class="h_phone_btn">Обратный<br/>звонок</a>
+                <a href="#calculator" class="h_calc_btn scroll-to">Расчитать<br/>стоимость</a>
+                <a href="#callback" class="h_phone_btn">Заказать<br/>звонок</a>
             </div>
 
             <div class="phone_head_blk">

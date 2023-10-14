@@ -29,7 +29,6 @@
         </div>
     </li>
     <li><a href="#" class="sub_puncts">Ремонт</a></li>
-    <li><a href="#">Умный дом</a></li>
     <li><a href="#">Галерея</a></li>
     <li><a href="#">Контакты</a></li>
 </ul>

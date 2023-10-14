@@ -1,6 +1,7 @@
 <section id="section-portfolio" class="section-portfolio">
     <div class="_container">
         <h2>Посмотрите, что мы сделали!</h2>
+		
         <div class="portfolios_list">
             <div class="portfolio_elem">
                 <?php get_template_part('template-parts/portfolio','slider', [
@@ -27,7 +28,6 @@
                         "Срок:" => "3,5 месяц", 
                         "Стоимость:" => "3 100 000 руб.", 
                     ]
-
                 ]);?>
             </div>
 
@@ -56,9 +56,9 @@
                         "Срок:" => "3,5 месяц", 
                         "Стоимость:" => "3 100 000 руб.", 
                     ]
-
                 ]);?>
             </div>
+			
         </div>
     </div>
 </section>

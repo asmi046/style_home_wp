@@ -9,5 +9,5 @@
     </ul>
     <span class="price_in_blk"><?php echo $args['price']?></span>
     <p>без учета материалов</p>
-    <a href="#" class="btn">Рассчитать стоимость</a>
+    <a href="#callback" class="btn">Оставить заявку</a>
 </div>
