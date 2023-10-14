@@ -20,16 +20,20 @@
     justify-content: space-around;
 }
 
+.du_body a,
 .du_body p{ 
     width: 32%;
+    margin-top: 1em;
     margin-bottom: 40px;
     line-height: 1.2;
     padding-left: 80px;
     position: relative;
     font-size: 24px;
     font-weight: 500;
+    color:white;
+    text-decoration: none;
 }
-
+.du_body a::before,
 .du_body p::before{ 
     content:"";
     position: absolute;
@@ -42,37 +46,47 @@
     background-size: contain;
 }
 
+.du_body a[data-duname="Установим кондиционеры"]::before,
 .du_body p[data-duname="Установим кондиционеры"]::before{ 
     content:"";
     background-image: url(../img/icons/dop_usl/ust_cond.svg);
 }
 
+.du_body a[data-duname="Установим пластиковые окна"]::before,
 .du_body p[data-duname="Установим пластиковые окна"]::before{ 
     content:"";
     background-image: url(../img/icons/dop_usl/ust_plokna.svg);
 }
 
+.du_body a[data-duname="Согласуем перепланировку и электропроект"]::before,
 .du_body p[data-duname="Согласуем перепланировку и электропроект"]::before{ 
     content:"";
     background-image: url(../img/icons/dop_usl/planirovka.svg);
 }
 
-.du_body p[data-duname="Проведем генеральную уборку после ремонта"]::before{ 
+.du_body a[data-duname="Проведем генеральную уборку после ремонта"]::before,
+.du_body p[data-duname="Проведем генеральную уборку после ремонта"]::before
+{
     content:"";
     background-image: url(../img/icons/dop_usl/uborka.svg);
 }
 
-.du_body p[data-duname="Установим натяжные потолки"]::before{ 
+.du_body a[data-duname="Установим натяжные потолки"]::before,
+.du_body p[data-duname="Установим натяжные потолки"]::before
+{ 
     content:"";
     background-image: url(../img/icons/dop_usl/n-potolki.svg);
 }
 
-.du_body p[data-duname="Создадим эксклюзивный дизайн интерьера"]::before{ 
+.du_body a[data-duname="Создадим эксклюзивный дизайн интерьера"]::before,
+.du_body p[data-duname="Создадим эксклюзивный дизайн интерьера"]::before
+{ 
     content:"";
     background-image: url(../img/icons/dop_usl/exkl_design.svg);
 }
 
 @media (max-width: 1024px) {  
+    .du_body a,
     .du_body p {
         font-size: 24px;
         line-height: 1.1;
@@ -80,12 +94,14 @@
 }
 
 @media (max-width: 768px) { 
+    .du_body a,
     .du_body p {
         width: 48%;
     }
 } 
 
 @media (max-width: 512px) { 
+    .du_body a,
     .du_body p {
         width: 100%;
         font-size: 20px;

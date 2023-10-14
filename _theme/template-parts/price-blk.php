@@ -7,9 +7,9 @@
 
     <ul class="ul_in_blk">
         <?php 
-            foreach ($args['list'] as $elem) {
+            foreach ($args['list'] as $key => $value) {
         ?>
-            <li><a href=""> <? echo $elem; ?></a></li>
+            <li><a href="<? echo $value; ?>"> <? echo $key; ?></a></li>
         <?        
             }
         ?>

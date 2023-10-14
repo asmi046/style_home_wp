@@ -17,8 +17,8 @@ function my_assets()
 
 	// Подключение стилей 
 
-	$style_version = "1.0.1118";
-	$scrypt_version = "1.0.1118";
+	$style_version = "1.0.1119";
+	$scrypt_version = "1.0.1119";
 
 	wp_enqueue_style("null-css", get_template_directory_uri() . "/css/null.css", array(), $style_version, 'all'); 
 	wp_enqueue_style("fonts-css", get_template_directory_uri() . "/css/fonts.css", array(), $style_version, 'all'); 
